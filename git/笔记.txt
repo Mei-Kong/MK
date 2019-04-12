@@ -1,0 +1,254 @@
+URLLIB 请求库
+
+Urllib 是python内置的HTTP请求库，有四个模块：
+            request: 模拟HTTP请求
+            error: 异常处理模块
+            parse: URL处理方法
+            rebotparser: 识别网站的robots.txt文件，判断哪些网站可爬，哪些不能
+      
+      
+发送请求：      
+1.urloprn()
+    urllib 的 request 模块可以实现发送请求并得到相应
+        urllib.request.urlopen('http...') 可以抓取网页的HTML源代码
+        print(type(~~~))  可以输出相应网页的类型
+        print(~~~.status())  输出响应的状态码
+                 .getheaders()  输出响应的头信息
+                 .getheader(‘’)  输出响应头的某个的值
+                 .fileno  返回文件描述
+                 .fileno()  返回文件描述符
+
+    urllib() 函数的API封装：
+        urllib.request.urlopen( url,  网址URL
+    
+                                date=None,  以POST方式模拟表单提交方式
+                                            如何需要添加该参数，需要使用 bytes() 方法将参数转化成bytes(字节流)类型
+                                                bytes() 第一个参数需要是 str(字符串)类型 
+                                                            如果是字典，则需要用 urllib.parse 模块里的 urlencode() 将字典参数转换成字符串： urllib.parse.urlencode({  })  //里面是字典
+                                                        第二个参数是指定编码格式：encoding=''
+                                                    
+                                            bytes(urllib.parse.urlencode({ : }), encoding='utf8')
+                                                    
+                                            如果使用了，则请求方式不再是GET，而是POST
+                                            http://httpbin.org/post    //可以用来测试POST请求   
+                                                            /get     //也可以测试GET，依此类推
+                                                                               
+                                [timeout,]*,  设置超时时间，单位s，默认为全局时间    // time=
+                                              超时异常为 urllib.error.URLError 属于urllib.error模块
+                                              可以用try except语句跳过超时页面，使用 isinstance() 对比类型用socket模块的socket.timeout
+                                          
+                                cafile=None,  CA证书的文件   //请求HTTPS链接时会有用
+                                capath=None,  CA证书的路径   //请求HTTPS链接时会有用
+                            
+                                cadefault=False,  已弃用，默认false
+                                context=None  必须是ssl.SSLContext类似，用来指定ssl设置
+                                )
+                                
+                                
+2.Request()
+    如果请求需要加入多个信息，如Headers，则需要 Request() 来构建一个完整的请求，方法：
+        class urllib.request.Request( url,  必选参数
+                                     date=None,  如果要传，必须是bytes类型，如果是字典，先用 urllib.parse.urlencode() 编码
+                                     headers={},  这是一个字典，请求头，请求时可以通过headers参数直接构造，也可以通过请求实例 add_header() 方法添加
+                                                  添加请求头时最常用的方法是通过修改User_Agent来伪装浏览器，默认为Python-urllib
+                                     origin_req_host=None,  指请求方的 host名称 或者 ip地址
+                                     unverifiable=False,  表示这个请求是否是无法验证的，默认为False，意思是用户没有足够的权限来选择接收这个请求的结果，例如请求一些图片等，就为true，因为大部分不需要验证
+                                     method=None  指示请求使用的方法，是一个字符串，比如 GET, POST, PUT 等 
+                                     )
+                                     
+                                     例如：A = urllib.request.Request(url, data=data, headers=headers, method=method)    #这里变量 A 等于一个完整的URL请求,是一个构架好的URL
+                                     
+                                     
+3.高级用法：例如cookies处理，代理设置等
+    使用 Handler 即可简单完成，理解为解决各种处理的集合，对应cookies的处理类，对应代理的处理类等
+    
+    在urllib.erquest模块里的 BaseHandler 是所有Handler的父类：
+        它的子类有很多  例如  HTTPDefaultErrorHandler :用于处理HTTP响应错误，错误会抛向HTTPError类型错误
+                           HTTPRedirectHandler  :用于处理重定向
+                           HTTPCookieProcessor  :用于处理Cookies
+                           ProxyHandler  :用于处理代理，默认为空
+                           HTTPPasswordMgr  :用于管理密码，它维护了用户名和密码的表
+                           HTTPBasicAuthHandler  :用于管理认证
+                           等等 
+                
+    还有一个重要的类 OpenerDirector 称为 opener ，与urlopen类似，实际上urlopen就是uriilb提供的opener，urlopen处理的比较简单而已，opener实际上可以处理高级的功能 
+    简单地说，需要用 Handler 创建个性化的 opener 实现高级功能，功能都集成在 Handler 。
+    build_opener 可理解为实现高级操作 Handler
+    
+    
+    *验证：需要输入账号密码才能访问的页面
+            引用模块类例如    from urllib.request import HTTPBasicAuthHandler（用于管理认证）, 
+                                                       HTTPPasswordMgrWithDefaultRealm（可理解为一张表）, 
+                                                       build_opener（用于发送验证，仅仅是发送）
+                     
+            例如：p = HTTPPasswordMgrWithDefaultRealm()    #使P成为一张用于验证的表
+                 p.add_password(None, url, username, password)    #给P添加参数  .add_password(变量, 变量, ...)
+                 handler = HTTPBasicAuthHandler(p)    #用HTTPBasicAuthHandler()使P形成验证操作，
+                 opener = build_opener(handler)    #这一步build_opener是发送请求，只是验证而已，相当于实现这个功能
+                 result = opener.open(url)   #当验证成功后，用.open可以打开网页获取代码，这里相当于urlopen
+                 print(result.read().decode('GBK'))    #打印代码
+                                     
+    *代理 
+        引用模块不多说
+        ProxyHandler()创建一个对象，它是一个字典
+                a = ProxyHandler({                            #添加代理IP，字典类型
+                        ‘http’: ‘http://192.168.1.1:1111’
+                        ‘https’: ‘http://192.168.1.1:1112’
+                        ......
+                })
+                opener = bulid_opener(a)     #这里直接openenr，之后.open() 
+                
+    
+    *Cookies:读写cookies
+            用cookie进行模拟登陆和访问，需要引用用 http.cookiesjar 中的 Cookiejar() 库
+            再使用 urrlib.request 的 HTTPCookieProcessor() 处理Cookies
+            写好获取命令后，就是基本的构建操作了，handler ———— opener ———— .open()
+            注意：CookiesJar() 的对象是个字典，输出时常常只需要 name 和 value
+
+                cookie = http.cookiejar.CookieJar()    #创建CookJar() 的对象，是个字典
+                handler = urllib.request.HTTPCookieProcessor(cookie)    #指定操作
+                opener = urllib.request.build_opener(handler)    #构建opener
+                response = opener.open('http://www.baidu.com')    #打开url，实现opener操作
+                for a in cookie:    #此时输出response是源代码，获取cookies的话应该是遍历输出 cookie 字典变量，可只选name 和 value
+                    print(a)                         
+                                     
+            cookie实际上是以文本形式保存的，那么输出时可以输出成文件格式，用 .save 保存  .load 读取
+            
+                filename = 'cookies.txt'    #创建txt
+                cookie = http.cookiejar.MozillaCookieJar(filename)    #参数为文件名时自动创建文件
+                handler = urllib.request.HTTPCookieProcessor(cookie)
+                opener = urllib.request.build_opener(handler) 
+                response = opener.open('http://www.baidu.com') 
+                cookie.save(ignore_discard=True, ignore_expires=True)    #save将cookies保存到txt
+                
+                ignore_discard 的意思是即使cookies将被丢弃也将它保存下来
+                ignore_expires 的意思是如果cookies已经过期也将它保存并且文件已存在时将覆盖
+            
+            
+            CookieJar有两个子类：
+                        MozillaCookieJar ：保存成Mozilla型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar()
+                        LWPCookieJar ：保存成LWP型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar.LWPCookieJar()
+                                     
+            当需要调用本地Cookies文件时，用 load() 读取     
+                        cookie.load(‘filename’, ignore_discard=True, ignore_expires=True)
+                        这一步需要放在创建 handler 之上
+                                     
+                                     
+处理异常：
+    1.URLError  
+        它是 urllib 库的 eroor 模块，继承OSError，是error的基类
+        他有一个属性 reason 返回错误的原因
+               print(a.reason)
+           
+           
+    2.HTTPError
+          它是 URLError 的子类，专门处理 HTTP请求错误
+          有三个属性： code： 返回HTTP的状态码
+                    reason： 与父类一样，返回错误原因
+                    headers： 返回请求头
+                 
+                print(a.reason, a.code, a.headers)
+             
+          如果想知道错误的类型，可以用上面的方法： print(type(a.reason))
+       
+       
+解析链接
+    1.urlparse()
+        实现 URL 的识别和分段，返回结果为ParseResult类型的对象，是一个元组，它分为6个部分
+        scheme：协议    netloc：域名      path：访问路径
+        params：参数    query：查询条件   fragment：锚点
+      
+        https://www.baidu.com/index.html;useraa?id=10#comment
+        scheme//    netloc   /   path   ;params?query#fragment
+                                     
+        urlparse() 的API：
+        urllib.parse.urlparse( urlstring: 必选，待解析的URL
+                               scheme: 默认的协议，当URl没有带协议信息时才生效，将这个参数作为默认协议，
+                               allow_fragments: 意为‘不忽略’fragment，设置为false时忽略，被忽略时会被解析为 path，params 或者 query 
+                            )
+      
+      
+    2.urlunparse()  
+        对立方法，即组合构造URL
+        它接受的参数是一个迭代对象，长度必须为6，否则报错
+      
+      
+    3.urlsplit()
+        与 urlparse() 类似，不过它把 params 合并到 path 中，返回5个结果
+        类型同样是元组
+                                     
+                
+    4.urlunsplit()
+        对立方法，5个参数拼接
+                                     
+  
+    5.urljoin()
+        提供一个base_url（基础链接）作为第一个参数，将新链接作为第二个参数
+        该方法只会解析 base_url的scheme,netloc,path 并将缺失的部分补充补充内容从新链接提取
+        注意：只解析base_url的前三个，就是说base_url的后面部分将被忽略，从新链接中提取
+  
+  
+    6.urlencode()
+        将一个字典序列化成GET请求
+                a={'name':'ABC', 'age':'10'}
+                base_url='http://www.baidu.com?'
+                url=base_url + urlencode(a)    #生成GET请求
+            
+            
+    7.parse_qs()
+        对立方法，将GET请求序列化转回字典
+  
+  
+    8.parse_qsl()
+        用于将url的参数部分转化为元组组成的列表
+                query = 'name=AAA&age=10'
+                print(parse_qsl(query))
+            
+                结果[('name','AAA'),('age','10')]    #结果是个列表，列表中每个元素都是一个元组（参数名，参数值）
+            
+            
+    9.quote()
+        可以将内容转化为URL编码的格式，特别是URL带中文的
+        a = '妹控'
+        url = 'http://www.baidu.com/s?wd=' + quote(a)
+  
+  
+    10.unquote()
+        对应方法，用来URL解码的
+        url = ‘http://www.baidu.com/s?wd=%E5%A6%B9%E6%8E%A7’
+        print(unquote(url))
+  
+  
+分析Robots协议  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
