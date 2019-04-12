@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:345px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/幽谷响子（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">幽谷响子（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>诵经的山彦</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>诵经的山彦 </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						反射声音程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">妖怪之山、命莲寺等</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				当冲着山谷喊叫时，会正直地响应声音的妖怪便是所谓的山彦。<br><br>自古以来无论何处的山谷都有存在的妖怪。<br><br>
+尽管是对愉快的的声音就愉快地响应，对愤怒的吼叫则会做出反击回应的，一种开朗又快乐的妖怪，近年来个体数正持续减少的样子。<br><br>
+其主要理由是，在村内的人类间传言道山彦声音的正体只是声音的反射，所以在会在山上提高声线说话的人类变少了。<br>大多数的山彦因为失去了存在意义，所以就自然绝种了的样子。
+她觉得这样的世界太空虚了，便出家了。<br><br>现在正在命莲寺修行的样子。<br>修行内容是，每日都在门前进行打扫的工作。<br>由于寺院会传来诵经的声音，所以她几乎把所有经文都背诵下来了（×1耳濡目染，无师自通。1）。<br>当然她并不理解其中的含义吧。<br><br>
+从大耳朵和小尾巴的特征可以判断出来，原本是动物的妖怪。<br>但与肉食兽那种残暴也不吻合。<br>虽然她嗓门很大却意外的胆小，一旦跟登山客碰面就会立即消失。<br>然后从离开的地方大喊「怎么样、很吃惊对吧！」。<br><br>而从远处大喊大叫的人，一般都是胆小鬼吧。<br><br>
+顺带一提，原本她独自一人的时候相对的比较温顺，但最近变得开始自言自语的念经了。<br><br>说不定稍微累积些压力的样子。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>山彦回应集 </b></td></tr>
+			<tr>
+				<td colspan="2">
+				会对在山中的喊声响应的山彦，<br>基本上只是把同样的说话重复回喊一次而已，<br>但对某些特定的声音却会有所变化地响应过去，以下是我记录下的我知道的所有有变化的语录。<br><br>
+「YAHOO──！」→「YAFUU──！」<br>
+基本形，用习惯的发音来响应。<br><br><br>
+「混蛋──！」→「什么啊你这家伙──！」<br>
+青春形，也被称为小混混形。<br><br><br>
+「非常抱歉啊──！」→「我这边才是的──！」<br>
+大人是礼仪端正的。<br><br><br>
+「山──！」→「川──！」<br>
+山川氏限定。<br><br><br>
+「现在几点──！」→「是呢大概嘛──！」<br>
+报时形，大概是几点请自行判断。<br><br><br>
+「一加一等于多少──？」→「……」<br>
+算术苦手形。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对应方法 </b></td></tr>
+			<tr><td colspan="2">
+				由于她不会主动攻击，大概没什么特别危险。<br><br>是性格非常温和的妖怪。<br>天气好时，向山大喊会非常的满足。<br><br>
+最近她很多时间都在命莲寺里住着，但在寺院大声喊会妨碍到别人所以请自重。<br><br>
+不过太吵的话，山上的其他妖怪会不会出来就不知道了，所以请适量。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

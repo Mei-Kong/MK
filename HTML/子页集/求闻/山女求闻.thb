@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:280px;
+		height:355px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:280px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/黑谷山女（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">黑谷山女（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>黑暗洞窟中的明亮之网 </b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>黑谷山女 Kurodani Yamame </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵疾病（主要是传染病）程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">极低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">黑暗风穴内</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				潜伏在黑暗风穴内的妖怪。等着进入洞窟内的人们的土蜘蛛。<br><br>
+碰上这妖怪的话有会有高机率触发原因不明的高烧、食欲大减，不顾身体让它继续虚弱下去的话可能会死亡。<br>另外要是触碰到有这种病的人类还会被传染的样子。 <br><br>
+由于是栖息于妖怪之山山脚的一个风穴，所以是绝对不可以进去的。<br>肆意行动的话可能会给整个村子带来麻烦。<br><br>
+因为知道自己惹人讨厌所以几乎不会到村里去。<br>但是毕竟所谓的妖怪如果攻击全体人类是没有任何抵抗手段的。<br>因此，即使还没有对人类造成什么影响，也不能掉以轻心。 <br><br>
+虽然性格不太清楚，但根据从生还者的那边听到的说法，似乎就是普通妖怪那样的性格。 			
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>作为土木作业员的土蜘蛛 </b></td></tr>
+			<tr><td colspan="2">
+				土蜘蛛非常擅长于建筑，所以有时也会悄悄的出来地上找活。<br>主要会接受鬼啊河童啊天狗之类的委托然后在地上待过一晚就能把建筑物建好的样子。 <br><br>
+跟人类的建筑物相比，妖怪的建筑物比较快的完成也可能是私下里有一些有力的伙伴帮助的缘故吧。 
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>疾病的正体 </b></td></tr>
+			<tr><td colspan="2"><br>
+				稍微向患者调查一下，能看出共通点是都有高烧这种症状。<br><br>然而只有这种程度的信息还是无法搞懂这种正体不明的病究竟是什么一回事的。 <br><br>
+因为听说特效药已被开发出来，所以还是去永远亭看医生比较好。<br><br>但是，似乎每年发病的症状都不一样，似乎不能用寻常的方法去判断<br>（×1 这是以每年见到第一个发病人的地点来命名的，例如说玄武池B型啊荞麦屋A型之类来改疾病名称）。 
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2"><br>
+				就是指绝对不能去风穴这件事。<br><br>
+还有因为夜间也会在地上出没，所以夜晚也务必保持警戒。 <br><br>
+要是染上原因不明的高烧，请立即隔离并叫医生来。<br>就算没有医药费，这种传染病也得要说积极地（尽可能便宜地）医好。<br><br>若然诊断结果并非流行病，那就付医药费好了。 
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

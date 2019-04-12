@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Content-Type" content="仅适用与参考，全权版权归THBWIKI官方所有">
+<meta name="author" content="妹控">
+<meta name="Reply-to" content="1519314225@qq.com">
+<title>无标题文档</title>
+<style type="text/css">	
+	.dk{
+		width: 80%;
+		height: auto;
+		min-width: 60%;
+		background: rgba(0,0,0,0.2);
+		position: relative;
+		margin: -13px auto auto auto;
+	}
+	#bqid{
+		width : 100%;
+		height: 50px;
+		background: hsla(359,100%,50%,0.53);
+		text-align: center;
+		bottom: 0px;
+		position: absolute;
+		display: block;
+	}
+	.zybj{
+		width: 100%;
+		min-width: 600px;
+		position: absolute;
+		height: 600px;
+		overflow: hidden;
+		z-index: -1;
+		
+	}
+	.zybj img{
+		width: 100%;
+		min-width: 900px;
+		position: absolute;
+		filter: opacity(50);
+		top:-250px;
+	}
+	.box-zybj{
+		width: 100%;
+		height: 500px;
+		bottom: 0;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	}
+	.zkjb{
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(181,212,255,0.3));
+		bottom: 0;
+	}
+
+	.divfhzy{
+		width: 75px;
+		height: 75px;
+		position: fixed;
+		top: 90%;
+		right: 3%;
+		background: hsla(359,100%,70%,1.00);
+		text-align: center;
+		line-height: 37px;
+	}/*返回上一级*/
+	.zk{
+		width: 100%;
+		height: 800px;
+		min-width: 350px;
+		position: relative;
+	}/*主框*/
+	.box_tableone{
+		width: 60%;
+		height: auto;
+		min-height: 200px;
+		min-width: 500px;
+		top: 50px;
+		margin: 0 auto auto;
+		position: relative;
+		background: rgba(181,212,255,0.5);
+		display: block;
+	}
+	.tableone{
+		width: 100%;
+		position: relative;
+		font-size: 1.5em;
+	}
+	.thbbj{
+		width: 40px;
+		height: 40px;
+		background: hsla(359,100%,83%,1.00);
+		position: relative;
+	}/*thb提示部件*/
+	.thbbj:hover .thbbjk{
+		height: 130px;
+		transition: height 1s ease;
+	}
+	.thbbjk{
+		width: 351px;
+		height: 0px;
+		line-height: 2em;
+		background: hsla(0,0%,60%,0.45);
+		position: absolute;
+		left: -390%;
+		overflow: hidden;
+		color: hsla(340,100%,59%,1.00);
+	}/*thb外链部件链接提示框*/
+	.gsdk{
+		width: 80%;
+		height: auto;
+		position: relative;
+		background: rgba(255,151,153,1.00);
+		min-width: 500px;
+		bottom: 350px;
+		margin: 500px auto;
+		font-size: 1em;
+	}
+	.gsdk td{
+		min-height: 50px;
+	}
+	.gsdk tr{
+		width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="zybj">
+		<img src="../../封面/东方辉针城封面.jpg">
+		<div class="box-zybj"></div>
+	</div>
+	<div class="divfhzy">
+		<a href="../../主页.html#TH14.3" title="ああああああああ~~~~ゆっくり（油库里）"><img src="../../使用图片/啊啊啊啊~.jpeg" width="100%" alt="ああああああああ~~~~ゆっくり（油库里）"></a>
+	</div>
+	<div class="dk">
+	<div class="box_tableone">
+		<table style="border-color: rgba(0,0,0,0.5)" border="1" cellpadding="5px" cellspacing="0.1" class="tableone">
+			<tr>
+				<td colspan="3" >
+					<div class="zk" style="background: url(../../封面/东方辉针城封面.jpg);background-size: cover">
+					<div class="zkjb"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><b><font size="+3">TH14 	东方辉针城</font></b></td>
+			</tr>
+			<tr>
+				<td>制作方</td>
+				<td>上海爱丽丝幻乐团</td>
+			</tr>
+			<tr>
+				<td width="15%">类型</td>
+				<td>STG</td>
+			</tr>
+			<tr>
+				<td>正式版发行日期</td>
+				<td>2013年8月12日 （ComicMarket84）</td>
+			</tr>
+			<tr>
+				<td rowspan="2">售价</td>
+				<td>会场售价：1000日元</td>
+			</tr>
+			<tr><td>通贩售价：1400日元</td></tr>
+		</table>
+			<table border="1px" style="position: relative;width: 100%;">
+				<tr>
+					<td align="center">访问THB查看相关词条
+						<div class="thbbj">
+							<a href="">
+								<img src="../../使用图片/thb.jpg" width="100%;">
+							</a>
+							<div class="thbbjk"><b>点击将访问到THBWIKI相关词条信息<br>而不是到THBWIKI主页<br>这个过程需要网络</b></div>
+						</div>
+					</td>
+				</tr>
+			</table>
+	</div>
+	<div class="gsdk">
+		<table border="1" width="100%" cellspacing="0" style="text-indent: 15px">
+			<tr><td align="center">故事背景</td></tr>
+			<tr><td>
+					<p>——博丽神社。建在远离人类村庄的边远之地的神社。</p><br>
+				<p>神社的巫女、博丽灵梦非常困扰。   因为御币不听话了。擅自动起来的御币。    没错，这莫非是付丧神化了？
+　那么这样一来不就成她的敌人了吗？</p><br>
+				<p>但是，她并不打算行动。   因为，自己动起来的道具非常方便。   可能是因为感到内疚，她并没有告诉任何人。
+　就在这时，不曾预料的事态发生了。</p><br>
+				<p>——魔法森林。全年都十分潮湿的森林。</p><br>
+				<p>在其中有一个比较干燥的空间。那就是魔法使、雾雨魔理沙的家。</p><br>
+				<p>看来驱赶周围的湿气，让这里干燥的，是她引以为豪的道具，迷你八卦炉。喷火的道具迷你八卦炉厌恶湿气。
+　看来它是凭自己的意志行动的。她对如何对待擅自行动起来的道具感到十分烦恼。该如何用这个妖器之火去烤焦妖怪……。</p><br>
+				<p>——红魔馆。位于湖畔的恶魔栖息的洋馆。</p><br>
+				<p>女仆长的十六夜咲夜，从吸血鬼那里接到了命令。   「雾之湖有妖怪在大闹，给我想想办法」这种事。</p><br>
+				<p>吸血鬼平时应当不会说这种话，但因为似乎有什么内幕
+　就没有深究，直接出击了。  为什么会这么想呢。   因为她最近发现了不可思议的剑。那是可以擅自动起来的剑。　暴动的妖怪与不可思议的剑。不可能毫无关联。因为，当她拿起那把剑，她也开始想大闹一场了。</p><br>
+				<p>狂暴的妖怪引发的骚动四处发生着。擅自行动起来的道具也随处可见。
+　到底发生了什么。无论是灵梦她们，还是暴动的妖怪们，都不清楚。</p><br>
+				<p>逐渐地，令人不安的云开始笼罩天空。巨大的建筑在强风中轧轧作响。
+　幻想乡中响彻着不和谐音</p><br>
+				</td></tr>
+			
+		</table>
+	</div>
+	<div id="bqid">
+		<b>&copy;版权归THBWIKI官方,上海爱丽丝幻乐团所有</b>
+		<br>
+		<b><u><a href="">THBWIKI官方主页</a></u></b>
+		<img src="../../使用图片/thb.jpg" width="24px" align="top">
+	</div><!--版权-->
+	</div>
+</body>
+</html>
+
+

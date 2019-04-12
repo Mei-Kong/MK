@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:390px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/二岩猯藏（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">二岩猯藏（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>佐渡之二岩</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>二岩猯藏 Hutatuiwa Mamizou </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						变身程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">命莲寺、魔法森林等</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><br>
+				从外面的世界到来，非常稀有的妖怪狸。<br>比起在幻想乡内独自进化的妖怪，她拥有着古典的姿态和能力。<br><br>
+原本她似乎是妖怪狸的首领，有着相应的威严和领导风范，成为新势力的发源可能性很高。<br><br>
+幻想乡原本是栖息了很多妖怪狸的，所以那些野生狸或许有和外来的她联合起来互相关照的必要。<br><br>
+虽说变身的能力就是不光是自己的姿态，是甚至可以将其他物体也变化的能力，但因为那是跟幻觉没什么分别的东西，所以她是无法制造出无中生有的幻象。<br><br>无论想要欺骗谁，还是需要一个原本存在的物体的。<br>即使那个物体在变化后也无法变成与其变化对象十分接近的物体，大概马上会被揭穿。<br><br>例如说，即使狗变身成鸟，却还是不能飞翔，所以马上就会穿帮了。只是外观看上去不同，但性质是几乎没有变化的。<br><br>
+还有，她本人变身时多是无法藏起尾巴的。<br>这说法基本上在全部妖怪狸、妖怪狐狸上都适用，虽然完全藏起尾巴和耳朵是不可能的，但在看不见的位置缩小或是涂上保护色之类伪装成看不见的也是可以。<br>只不过一旦被动摇、紧张或是激动时耳朵和尾巴就会露出来，非常的显眼。<br><br>
+此外，尾巴的大小其实就是妖力的计量表，这大抵都是妖兽的宿命吧。<br><br>
+这样的她，从最初开始就没有藏起自己尾巴的打算。<br>说是，尾巴大是作为妖兽功力高强的缘故，这样子。<br><br>
+有远视并且不时会皱眉头，也会用上了年纪的臭口气说话，说不定这只也是她变身出来的姿态，事实上已经非常的老迈吧（×1 妖怪狸是没有所谓正体的东西）。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>佐渡之不可思议 </b></td></tr>
+			<tr><td colspan="2">
+				佐渡是外面世界的一个国家。<br><br>建国时期可以追溯到平安时代。<br><br>
+这是据从这样的佐渡前来的她所言的，佐渡是妖怪狸的天下，似乎是一只狐狸都没有的。<br><br>
+在幻想乡外面的世界，大部分的妖怪狸都已经很融入人类的社会生活去了。<br>虽说在幻想乡这里大部分都是只爱恶作剧，但在外面的世界也是有不少忘记了自我而作为人类就这样活过下去的妖怪狸。<br><br>那样的他们已经完全失去了尾巴，也不可能按自己的意思变回原来的样子了。<br><br>
+在佐渡有很多狸的末裔。狸擅长于挖掘出埋在地下的东西，正因如此，传闻狸的末裔曾因为挖到了金山而活得非常的富裕。<br><br>
+猯藏可以说是在大多数完全人化的狸当中，直到最后仍贯彻狸的生存之道活下去的，她也为这点而自豪。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				平日会变身成人类。<br><br>然后在看到人类困惑、感到惊讶时而高兴。虽然是无心的恶作剧，但欺骗时涉及对方的性命也是有可能，因此非常的危险。<br><br>
+不过因为她本人要是变身的一定会被看到尾巴，所以若然觉得有古怪的话，去找找看对方有没有尾巴比较好。<br><br>
+以及，在昼间揭穿伪装的皮很容易，夜晚就难得很了。尤其在满月之夜变身能力会大增，所以在夜晚外出时要极力注意。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

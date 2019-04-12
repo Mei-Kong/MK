@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:340px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/古明地恋（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">古明地恋（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>紧闭的恋之瞳 </b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>古明地恋 Komeiji Koishi </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵无意识程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">不明</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">完全没有</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">不明</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2">
+				跟姐姐觉一样的妖怪，觉（译注：种族名）。<br><br>只不过她是一个把自己的内心关闭了，没办法读出他人的内心的觉。 <br><br>
+虽然她不会读心所以也不会招人讨厌，但由于自己的心也是空白一片，同样的谁都不会喜欢她。<br>直到她的身影进入视线范围内为止，没人能够察觉到她的存在。<br>也有就算她的身影映入眼中，仍然会觉得她并不存在<br>（ 就像路边石子那样的存在。）。<br>当她从视线范围消失，就会立即忘掉。 <br><br>
+事实上从过去曾经到过地上好一段时间，但似乎谁都没有发现她的身影。如果了解姐姐觉的存在，那么妹妹恋也会很容易认识到。 <br><br>
+跟姐姐不一样，她并不被动物所喜欢，但也不被讨厌。<br>这样的恋让姐姐觉非常的担心。由于她没有内心因此她的姐姐也无法读出她的想法，但同样她也无法从姐姐的心中消除自己的存在。 <br><br>
+如此她的性格也是空洞的，跟姐姐一样难以进行交流。 
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>无意识 </b></td></tr>
+			<tr><td colspan="2">
+				与其说她经过自我思考再去行动，不如说她直接在某个场合凭借自己当时的感觉行动比较多。 <br><br>
+就如举起右手，她做这些动作时完全是在无意识之下进行。<br>正因如此，不光是别人，就连她本人也不可能判断自己接下来会做什么。 <br><br>
+然而这不等于说明她忠实于自我的欲望而活着<br>她可以说甚至没有任何欲望<br>。她就像一块在风中飘舞的布，纯粹随风而流的动着而已。 <br><br>
+据说无意识是长年累月修行的僧侣也难以掌握之物。<br>但是，变成像她这样真是件好事吗。这些讨论曾从命莲寺内的僧侣那里听闻一二。
+				
+				
+				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>仰慕她的人 </b></td></tr>
+			<tr><td colspan="2">
+				不被喜欢也不被讨厌，这样的她也有一部分的仰慕者存在。<br><br> 
+她没去建立复杂的人际关系，说话就像个孩子一样。 <br><br>
+她是大人无法看见，只有一部分小孩子能看见的妖怪。<br>就如在孩提时代曾经一起嬉闹玩耍过，但当长大后就完全遗忘的存在，难道没有人曾拥有这种经验吗（×2 我没有。）。<br><br> 
+她被称为『想象中的朋友（Imaginary Companion）』。<br><br>恋毫无疑问，就是所谓的幻想中的朋友吧。 
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				危险性不明。 <br><br>
+就算看到她她也什么都不会做，所以应该没有对策的必要。 <br>
+但是只有打算去刺激她这件事是万万不可。万一，作为妖怪觉而复活的话，对谁都没好处。 
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

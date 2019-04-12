@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Content-Type" content="仅适用与参考，全权版权归THBWIKI官方所有">
+<meta name="author" content="妹控">
+<meta name="Reply-to" content="1519314225@qq.com">
+<title>无标题文档</title>
+<style type="text/css">	
+	.dk{
+		width: 80%;
+		height: auto;
+		min-width: 60%;
+		background: rgba(0,0,0,0.2);
+		position: relative;
+		margin: -13px auto auto auto;
+	}
+	#bqid{
+		width : 100%;
+		height: 50px;
+		background: hsla(359,100%,50%,0.53);
+		text-align: center;
+		bottom: 0px;
+		position: absolute;
+		display: block;
+	}
+	.zybj{
+		width: 100%;
+		min-width: 600px;
+		position: absolute;
+		height: 600px;
+		overflow: hidden;
+		z-index: -1;
+		
+	}
+	.zybj img{
+		width: 100%;
+		min-width: 900px;
+		position: absolute;
+		filter: opacity(50);
+		top:-250px;
+	}
+	.box-zybj{
+		width: 100%;
+		height: 500px;
+		bottom: 0;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	}
+	.zkjb{
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0),  rgba(190,161,132,0.6));
+		bottom: 0;
+	}
+
+	.divfhzy{
+		width: 75px;
+		height: 75px;
+		position: fixed;
+		top: 90%;
+		right: 3%;
+		background: hsla(359,100%,70%,1.00);
+		text-align: center;
+		line-height: 37px;
+	}/*返回上一级*/
+	.zk{
+		width: 100%;
+		height: 800px;
+		min-width: 350px;
+		position: relative;
+	}/*主框*/
+	.box_tableone{
+		width: 60%;
+		height: auto;
+		min-height: 200px;
+		min-width: 500px;
+		top: 50px;
+		margin: 0 auto auto;
+		position: relative;
+		background:  rgba(190,161,132,0.8);
+		display: block;
+	}
+	.tableone{
+		width: 100%;
+		position: relative;
+		font-size: 1.5em;
+	}
+	.thbbj{
+		width: 40px;
+		height: 40px;
+		background: hsla(359,100%,83%,1.00);
+		position: relative;
+	}/*thb提示部件*/
+	.thbbj:hover .thbbjk{
+		height: 130px;
+		transition: height 1s ease;
+	}
+	.thbbjk{
+		width: 351px;
+		height: 0px;
+		line-height: 2em;
+		background: hsla(0,0%,60%,0.45);
+		position: absolute;
+		left: -390%;
+		overflow: hidden;
+		color: hsla(340,100%,59%,1.00);
+	}/*thb外链部件链接提示框*/
+	.gsdk{
+		width: 80%;
+		height: auto;
+		position: relative;
+		background: rgba(255,151,153,1.00);
+		min-width: 500px;
+		bottom: 350px;
+		margin: 500px auto;
+		font-size: 1em;
+	}
+	.gsdk td{
+		min-height: 50px;
+	}
+	.gsdk tr{
+		width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="zybj">
+		<img src="../../封面/东方神灵庙封面.jpg">
+		<div class="box-zybj"></div>
+	</div>
+	<div class="divfhzy">
+		<a href="../../主页.html#TH13" title="ああああああああ~~~~ゆっくり（油库里）"><img src="../../使用图片/啊啊啊啊~.jpeg" width="100%" alt="ああああああああ~~~~ゆっくり（油库里）"></a>
+	</div>
+	<div class="dk">
+	<div class="box_tableone">
+		<table style="border-color: rgba(0,0,0,0.5)" border="1" cellpadding="5px" cellspacing="0.1" class="tableone">
+			<tr>
+				<td colspan="3" >
+					<div class="zk" style="background: url(../../封面/东方神灵庙封面.jpg);background-size: cover">
+					<div class="zkjb"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><b><font size="+3">TH13 东方神灵庙</font></b></td>
+			</tr>
+			<tr>
+				<td>制作方</td>
+				<td>上海爱丽丝幻乐团</td>
+			</tr>
+			<tr>
+				<td width="15%">类型</td>
+				<td>STG</td>
+			</tr>
+			<tr>
+				<td>正式版发行日期</td>
+				<td>2011年8月13日 （ComicMarket80））</td>
+			</tr>
+			<tr>
+				<td rowspan="2">售价</td>
+				<td>会场售价：1000日元</td>
+			</tr>
+			<tr><td>通贩售价：1400日元</td></tr>
+		</table>
+			<table border="1px" style="position: relative;width: 100%;">
+				<tr>
+					<td align="center">访问THB查看相关词条
+						<div class="thbbj">
+							<a href="">
+								<img src="../../使用图片/thb.jpg" width="100%;">
+							</a>
+							<div class="thbbjk"><b>点击将访问到THBWIKI相关词条信息<br>而不是到THBWIKI主页<br>这个过程需要网络</b></div>
+						</div>
+					</td>
+				</tr>
+			</table>
+	</div>
+	<div class="gsdk">
+		<table border="1" width="100%" cellspacing="0" style="text-indent: 15px">
+			<tr><td align="center">故事背景</td></tr>
+			<tr><td>
+				<p>博丽神社，座落於远离村子的边境之地。</p><br>
+　　<p>大地从皑皑白雪的冰封中复苏，幻想乡再度恢复她
+　原本的美貌。  樱花与神灵共同漫舞在怡人的春意之中。</p><br>
+
+　　<p>灵梦　「樱花好看是好看啦」
+
+　　   魔理沙「樱花好看不就好了吗」</p><br>
+
+　　<p>在幻想乡里没有活着的生物会白白错过盛开的樱花之美。
+　博丽灵梦和雾雨魔理沙，这两个活人也不例外。 </p><br>
+　　<p>灵梦　「但是却有一股不好的预感呢」
+
+　　    魔理沙「真神奇。我也是」</p><br>
+
+　　<p>落樱缤纷春不待，如果错过了这次机会，可能得等到紫藤绽放的
+　春夏之际才能赏花了。 但是两人依然无心在樱花树下席地而宴。</p><br>
+
+　　<p>为何呢。  因为正体不明的灵体在两人面前倏现骤消的飘浮著。</p><br>
+
+　　<p>灵梦　「好像，之前也经历过这种幽灵遍地的春天呢」
+
+　　  魔理沙「啊，不过当时根本没办法赏花啦。
+　　　　　　因为春意都被抢光光了」
+
+　　  灵梦　「嗯，当时是冥界那两个人在搞鬼呢」
+
+　　  魔理沙「对嘛，任何和灵体有关的事情肯定和她们脱不了关系」
+
+　　  灵梦　「没错，只要这么想的话准没错啦」</p><br>
+
+　　<p>后来才明白这些四处飘浮的正体不明灵体，既非普通幽灵，也不是
+　前阵子出现的怨灵。这些是神灵。本应超脱为神的灵体。</p><br>
+
+　　<p>一般而言，神灵多半居住在神社里，其实它们是随处可见的
+　没有固定型态的灵体。
+　　这些神灵让她们困惑不已。</p><br>
+
+　　<p>魔理沙「再这样下去，明天就没办法赏花了耶。
+　　　　　　好吧」
+
+　　<p>灵梦　「什么？」
+
+　　<p>魔理沙「啊，嗯。没什么啦。
+　　　　　　我只是对这些神秘的灵体感到好奇」
+
+　　<p>灵梦　「是该动身了。
+　　　　　　调查一下这些灵体出现的原因吧」</p><br>
+
+　　<p>眼见机不可失。两人趁著夜色，争先恐后的动身调查。
+	———另一方面，山上的神社也发生了异变。
+　　坐落于妖怪之山的守矢神社，神社的巫女东风谷早苗，身边也出现了
+　这些神秘的灵体。</p><br>
+
+　　<p>早苗觉得很不可思议，不过她察觉到这些灵体并非幽灵。 这些灵体是神灵。
+　　和神奈子大人以及诹访子大人具有相同的性质。</p><br>
+
+　　<p>超乎常人的强烈人欲、想法、恐惧与情感，是神灵出现
+　的原因。一般而言，神灵很少危害人类，如果没有强烈的
+　欲望。例如祈求丰收，或是除厄避邪等，是不会产生
+　神灵的……。</p><br>
+
+　　<p>早苗认为，这些神灵可以利用。
+　　收集神灵就像是收集人类的欲望，这和收集信仰本质上
+　是相同的。</p><br>
+
+　　<p>然而，早苗也不知道为何神灵会如雨后春笋般出现。
+　而且也没发现足以席卷整个幻想乡的巨大欲望。  于是早苗决定前去调查神灵出现的原因。
+——死后的世界．冥界。
+　　值此同时，冥界也出现了异变，有其他灵体混杂在幽灵中。
+　不，正确来说，是从幽灵身上接二连三出现神灵随即消失，
+　然后再度出现不断循环著。</p><br>
+
+　　<p>冥界的庭师，魂魄妖梦对此大惑不解。
+　　当然，她也感觉到神灵从自己的身上出现。</p><br>
+
+　　<p>这些虚无飘渺的神灵转眼间就消失，但是却能感受到微薄的意识。
+　不，这些刚诞生的神灵没有什意识可言。
+　或许就像新冒芽的植物驱光性本能一样，
+　一半是人类、一半是幽灵的妖梦能感受到这一点。</p><br>
+
+　　<p>这些神灵的目标是人类村落方向。正当妖梦这么想的时候，村子方面隐约浮现一抹微亮。
+
+　　妖夢「原来如此。
+　　　　　不是只有我身上会出现神灵，任何生物都会吧。」</p><br>
+
+　　<p>于是妖梦放下手边的工作，立刻前去调查，不过……。
+				——神灵似乎在寻找能接受自己的人类。
+　　在阴暗土臭的灵庙中。神灵们幽暗的微光勉强映照著四周，
+　但随即被黑暗吸收，连自己的全貌都无法完整呈现。</p><br>
+
+　<p>　这时候神灵察觉到一件事。
+　　我们每个人都有想贪分、闪躲弹幕，或是发动符卡的欲望，
+　但谁能倾听我们这些微小的欲望呢？终究是幻想罢了。
+　这一丁点欲望最后还是得靠自己的努力才能达成。 </p><br>
+
+　　<p>然而神灵依然寄托这一缕微弱的希望坚定不移的朝黑暗中前进。
+　　就这样，这些神灵连自己诞生的原因都不知道，最后化为虚无。它们没有注意到，有人正暗自看著这些神灵窃笑。</p><br>
+
+
+
+　　<p>随着复活的时机来临，她的脸上泛起一抹微笑——
+　　同时更坚定复仇的誓言。</p><br>
+			
+				
+			
+		</table>
+	</div>
+	<div id="bqid">
+		<b>&copy;版权归THBWIKI官方,上海爱丽丝幻乐团所有</b>
+		<br>
+		<b><u><a href="">THBWIKI官方主页</a></u></b>
+		<img src="../../使用图片/thb.jpg" width="24px" align="top">
+	</div><!--版权-->
+	</div>
+</body>
+</html>
+
+

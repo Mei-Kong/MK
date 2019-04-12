@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:390px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/寅丸星（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">寅丸星（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>毘沙门天的弟子</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>寅丸星 Toramaru Syou </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						收集财宝程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">命莲寺等</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				命莲寺中仅次于圣白莲的伟大的僧侣<br>。白莲繁忙的时候，多半是由她来代替守护命莲寺。<br><br>
+虽然现在看起来她是白莲的弟子，但是情况其实相当复杂。<br><br>
+她是毘沙门天的化身，而白莲则是毘沙门天的信徒。命莲寺中供奉的是毘沙门天。<br>也就是说白莲是在祭祀她的弟子，信仰她的弟子。<br><br>
+虽然现在的关系比较复杂，但是追根溯源她也只是一只妖兽而已。<br>她曾经似乎是一只虎妖，不过已经没有人记得这件事了，而且她也无法再回到以前那种吃人的样子了。<br><br>
+她原来是一种据说可以聚集财富的，非常吉祥的妖怪。<br>正是多亏了她，就算是满是妖怪的命莲寺也变得这么有人气。<br>对于少数一些想要效仿的人类，白莲会说着感谢的话然后将他们控制住，这也是命莲寺的一项日常了。<br><br>
+她的样子是模仿尊像化的毘沙门天。<br>虽然和真正的毘沙门天应该相差甚远，不过和尊像化的毘沙门天还是非常相似的。<br><br>
+她的性格温厚，冷静之中又带着一点威严。<br>但是，在朋友之间偶尔能见到她真实的性格，其实是非常感性的，有时也会变得激动。<br><br>
+顺带提一下，虽然她身在寺中，但是酒量相当不错，不过偶尔也有喝醉的时候。
+
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>她的周围 </b></td></tr>
+			<tr>
+				<td colspan="2">
+				虎丸星1有一个老鼠使魔娜兹玲，这个使魔原本是毘沙门天的弟子。<br>毘沙门天为了监视星的化身工作，而把她派到星身边。<br><br>
+正是因为这个理由，所以有时娜兹玲反而会比星显得更为傲慢。<br><br>
+她手中托着的神秘物体称作毘沙门天的宝塔（别名激光宝塔），这件武器放射出的光芒可以烧毁一切物体。<br>收集宝石，然后将它的光芒变成激光射出去。<br>当高能量的激光碰到地面时，又会再次形成宝石（×1 就如同伽马射线会改变土壤性质一样，永远亭的八意永琳是这样说明的。）。<br>通过财宝的光芒创造出新的财宝（×2 财富的再分配。），这就是她称为七福神中的一位的原因了。<br><br>
+身为财宝的妖怪，她并不擅长体术。<br>她的强大有八成是因为手中的那座激光宝塔。
+她同时还拿着长长的矛，这是为了保持威严而做的装饰。<br><br>是用来替代法杖的。
+
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对应方法 </b></td></tr>
+			<tr><td colspan="2">
+				只要在命莲寺中就几乎没什么危险。<br>但是，如果做出什么惹她生气的事情就很难保证安全了。<br><br>
+宝塔非常的危险，只要在射程内就肯定会被烧毁殆尽。<br><br>
+作为七福神中的一位，只要信仰她应该就能财源广进。<br>并且，听说枕着绘有她的画像的枕头，就能做上好梦。<br>（×3 号称只要宣称信仰她，就能有一个可以避免受到娜兹玲掠夺财宝的记号。）
+				</td></tr>
+			
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

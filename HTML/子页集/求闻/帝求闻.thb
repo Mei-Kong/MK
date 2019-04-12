@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:455px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/因幡帝（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">因幡帝（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>幸运的白兔</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>因幡帝 Inaba Tei </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						使人类变得幸运程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">迷途竹林</font></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				作为野生的兔子的领袖存在的妖怪兔，就是因幡帝了。<br><br>她是一只由于注重健康，所以很长寿的兔子。<br><br>
+她懂人话，而且能变成人的样子。<br><br>
+虽说是妖怪兔，但她别名是幸运的白兔，据说见到她的人能得到幸运。不过她常常在迷途竹林，而且身法敏捷，可不容易看得到。<br><br>
+性格喜欢捉弄人，受惊吓会立刻逃跑，很狡猾。喜怒哀乐鲜明，和妖精性情相似。
+据说她平时都呆在迷途竹林里面某处，并住在永远亭里面。<br><br>
+事实上这妖怪兔在有永远亭之前就已经存在了。据说是幻想乡之中活得最久的妖怪种族（×1在最初编纂幻想乡缘起时，就已经确认存在了）。
+				
+				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				不久前，终于在竹林见到妖怪兔了！这样我也能有幸运了！（匿名）<br>
+幸运不会持续太久的，应该是从迷途竹林中出来回家，这样幸运就结束了。<br><br>
+啊啊，兔肉味道清淡怎么调味都很可以呢。（香霖堂店主）<br>
+兔肉是幻想乡人气很高的食物之一（×2我也很喜欢吃。）。<br><br>
+用陷阱捉过不少兔子，不过从未试过捉到妖怪兔呢。（匿名）<br>
+毕竟妖怪兔也是有一定智慧的。			
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				虽然她是能给予人类幸运，人气很高的妖怪兔，也不是想见就能见的。
+再加上是在迷途竹林中，就更困难了。<br><br>
+为了见这妖怪兔而进入竹林是不明智的，竹林中单调的风景和浓雾会让人迷失方向，而且还有其它妖怪栖息在其中，贸然进入是不可取的。<br><br>
+见到妖怪兔就能变得幸运，不过大概只有幸运的人才能见得到吧（×3当然了）。<br><br>
+另外，用四块叶的三叶草来比喻的话，那就是能得到四十块叶程度的三叶草的幸运吧。			
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

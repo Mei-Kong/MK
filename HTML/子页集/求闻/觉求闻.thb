@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:520px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/古明地觉（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">古明地觉（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>怨灵也为之惧怯的少女</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>古明地觉 Komeiji Satori </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						读心程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">完全没有</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">地灵殿</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><br>
+				在到处都是被嫌恶者的旧地狱中，在这群体中有一类特别惹人讨厌的妖怪，那就是觉了。<br>尽管当时是由于无法跟人类以及妖怪和谐共处从而逃到旧地狱去的，但结果，还是被旧地狱的妖怪所讨厌。<br><br>
+那理由，就是来自她的读心能力。<br><br>无论谁都不想要跟会读心的家伙碰面啦。<br>被读心这种事不仅是等同自己赤着身子跟她说话，而是意味着连普通地对话也无法做到。<br>她在旧地狱中一个名为地灵殿的地方把自己完全隔离，放弃跟任何人进行交流。<br><br>
+地灵殿基本上是不会有客人的。特意前来探访她的人更不会有。<br><br>
+然而，她却很受无法说话的动物们所欢迎。<br>因为读心的能力，对于动物来说可以说是独一无二的能力。就因为这样，地灵殿栖息着很多动物<br>（×1 博丽灵梦小姐曰「她们只是非常好用的奴隶」。）。<br><br>
+她对无法说话的灵魂一样可以读心。<br><br>正因为这样连怨灵都对她避之不及。<br>怨灵和动物不同，自己的所思所想还是想要凭借对话传达出来的。<br>这理由不用多说，因为「会说话的生物，全部都是有表里两面」的缘故吧。<br><br>
+为了对怨灵害怕她这件事有效利用，她如今负责管理着仍残留在灼热地狱迹内的怨灵。<br>由于无法对她隐瞒任何事，也是等于不会有人敢去逆她的意去作乱。<br><br>顺带一提，地灵殿就是建在灼热地狱迹的正上方。<br><br>
+她有一个妹妹。 				
+				</td></tr>
+			
+			<tr><td height="120px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>她的宠物阿燐 </b></td></tr>
+			<tr>
+				<td colspan="2"><br>
+				她有一只名唤火焰猫燐的宠物。似乎都是一直叫阿燐。<br><br>
+由于阿燐能做到跟怨灵交谈，所以一直作为她的右手帮助她的样子。<br><br>根据前述，怨灵饥渴于以对话与人交流的缘故，所以她们反而会去投奔阿燐而不是觉。因此也有实际上管理怨灵的人是阿燐的说法。<br><br>
+虽说是管理，但也基本就是放着不管，偶尔平衡下数量的程度。
+				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>她的宠物阿空 </b></td></tr>
+			<tr><td colspan="2"><br>
+				灵乌路空也是她的一只宠物。她都是叫阿空的。<br><br>
+作为在地狱诞生的地狱鸦，她是一个能平静置身于灼热地狱迹之热中的存在。<br>因此她一直负责对灼热地狱迹进行温度调节。<br><br>
+虽然阿空是个鸟脑袋，但应该擅长于不需要多动脑子的单纯劳动的作业。<br><br>
+她跟阿燐非常的要好。<br><br>觉的宠物们都很仰慕着觉，因此伙伴意识很强。			
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>地灵殿 </b></td></tr>
+			<tr><td colspan="2">
+				管理着灼热地狱迹的她所身处的别墅。<br>地板还装有暖气。<br>只有古明地姐妹住在这个宽敞得要命的地方<br>（×2 地狱比起地上要广敞得多。旧地狱当然也不例外。）。<br>完全没有访客。<br><br>
+觉即使在地灵殿来也不会怎样动身，基本上都在自己的房间看书、写书的样子。<br>特别喜欢带有丰富心理描写的故事。读书、写书对于能够读心的人据说是很刺激的体验。<br>在作者不明的故事中，或许就有她写的书。<br><br>
+同时，她的领地内几乎到处都是宠物。就像是动物园的样子。			
+				
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				虽然是令人害怕的妖怪，但幸运的是基本上不会有机会遇到她。<br><br>
+万一真的对峙起来，比起想一些拙劣的计策，还不如立即改变态度比较安全。<br><br>
+顺带一提，战斗能力不明。<br><br>鉴于她把自己跟外界隔离太久，估计她不会很强的样子。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:350px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:100px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/霍青娥&宫古芳香（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">霍青娥&宫古芳香（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>忠诚的尸体</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>宫古芳香 Miyako Yoshika</b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						什么都能吃的程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">完全没有</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">墓地</font></td></tr>
+			
+			<tr><td height="70px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				死后被邪仙操纵着的僵尸。<br>僵尸因为是尸体所以也是放不久的。<br>但是因为她的身体被施了防腐的咒语所以不会腐烂<br>（×1 脑髓除外。）。<br><br>
+因为是僵尸所以没有自我。<br>由于不会感觉到痛楚和疲惫，所以能突破正常肉体的限制，发挥常人所以没有的力量<br>（×2 人类一般来说只能使用极限的八分之一程度的力而已。）。<br><br>
+性格不明。与其说是判断不到她在想什么、感觉到什么……不如毫是什么都没在想，什么都感觉不到。<br>行动上对邪仙言听计从，是因为对目前发生什么事都理解不了的缘故吧。<br><br>曾经拜托她「烧条鱼来看看」但是只变成「直到鱼烧到变成炭为止都一直在盯着看」。<br><br>虽然是忠诚的部下，但似乎不是能干的部下吧。				
+				</td></tr>
+						
+			<tr><td height="100px"></td></tr>
+			
+			<tr><td colspan="2"><b>生前的她 </b></td></tr>
+			<tr><td colspan="2">
+				现在已经无法判断她是来自哪个时代的人了。<br><br>
+现在幻想乡中一个记得她的人都没有，尸体就是邪仙的所有物（×3 把尸体作为东西操纵摆弄。通常来说只有亲属可以领回去。）。从邪仙给她施了防腐的咒语的地方来看，说不定并不是属于这个时代的人吧。<br><br>
+眼看身体表面没什么瑕疵与伤口似乎是很年轻的时候就死去了，向懂医药的人问过后，推断怀疑是被毒杀的样子。虽然这么说，因为是连亲人都没有一个的尸体，谁都不会去寻根究底去的。所有事实也是有时效的。<br><br>
+但是我想她还存在一些生前的记忆吧。当撕去符咒，从邪仙的咒缚中解放后，似乎她就会回到生前的行动模式吧。曾经在空旷墓地那如同毯子一般铺满地面红叶上，看见她呆然站于其处的，咏唱着诗歌的身影。稍微有些被吓到呢。				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对应方法 </b></td></tr>
+			<tr><td colspan="2">
+				因为就算没什么特别理由她也会突然袭击过来所以要特别注意。<br><br>
+由于不会有痛感所以大部分的攻击都是无效的（×4 是会受伤，但她却不会胆怯。）。<br>但是因为行动迟钝要逃走还是很容易的。要是被当作敌人的话，还是请尽快离开那地方吧。<br><br>
+万一，要是被咬到的话就已经太迟了。<br><br>
+虽然只是暂时性，但还是会变成僵尸而丑态尽现。更甚者，无意识地咬了别人，说不准自己也变成在帮忙一起增加僵尸同伴。光是这件事就不得不回避她。			
+				</td></tr>
+
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:355px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/西行寺幽幽子（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">西行寺幽幽子（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>华胥的亡灵</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>西行寺幽幽子 Saigyouzi Yuyuko </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵死亡程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">冥界</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><br>
+				她是住在冥界白玉楼的西行寺家的大小姐。<br><br>保持亡灵状态已有千年以上，只有极少有的长寿（×1长寿？）的亡灵。<br><br>
+她对人无怨恨，再加上能统制幽灵，阎魔就命令她管理幽灵。而好处就是能永远住在冥界。<br><br>
+她的样子和是人类时没太大差别，据说只是肌肤和发色变得有些淡薄。<br><br>
+她的身体封印在白玉楼，所以永远不需要供养。也就是说能以亡灵的姿态永远生存（×2生存？）下去。<br><br>
+她的性格十分慢性子，已不记得自己来冥界已多久了。还有就是当天早餐的内容也不记得（×3是装傻的吧。）。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2">
+				如字面所示，操纵死亡的能力就是将人杀死，无法抵抗。<br><br>
+还有就是能操纵死后的幽灵。<br><br>
+被她盯上只能等死了吧。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>关于这个妖怪的逸闻 </b></td></tr>
+			<tr><td colspan="2"><br>
+				称为西行妖的樱树<br><br>
+她的父亲是众人敬仰的歌圣，主动要求长眠在樱树下。<br>在他死后，众人的敬仰未停止，现在他已经神格化住在天界了。<br><br>
+后来在那棵樱树下，樱花盛开的话，每年都有像幽幽子父亲那样死去的人。<br>不断吸血的樱树，渐渐变成了吸引人前来死亡的妖怪樱。于是它被称为西行妖。<br><br>
+现在的西行妖长在冥界的白玉楼。<br>她的肉体也和很多人一样长眠在西行妖下面，西行妖已被封印。所以樱树再没全开过。<br><br><br><br>
+幽灵移民计划<br><br>
+这是距今二三十年前的事了。<br>
+被限制无法成佛<br>（×4天界好多人断了轮回转生，现在处于饱和状态。）<br>而逗留在冥界的幽灵多了起来，冥界的幽灵越积越多，渐渐变得拥挤。<br>她于是将幽灵们移民去各种现界（×5包括外面的世界。），让它们在下次转生前暂时住在那里。<br><br>
+移民地点选在废弃的学校、医院、大厦等无人的地方。<br>不过后来却被好奇心旺盛的人类发现，反而招来了更多的人类（×6神秘地点。）。<br><br>
+结果这计划被阎魔发现，说幽灵被人类看见不好，计划就废止了。<br><br>
+最后阎魔扩展了冥界的土地，再无必要移民了。<br><br>据说现在的冥界比地狱还要宽广。
+
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2"><br>
+				嗯～今年要不要去冥界赏花呢？（雾雨魔理沙）<br>
+冥界之樱也很受活着的人类欢迎。<br><br>
+住那么大一间屋子，打扫也很辛苦吧。好羡慕。（博丽灵梦）<br>
+家事方面似乎有专属的幽灵来打理。
+
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2"><br>
+				首先，一般是不会遇上吧。<br><br>
+她平时住在冥界，若有什么事要来幻想乡，也是派幽灵来代办。<br><br>
+不过有例外。<br><br>
+那就是死后了。<br><br>普通地死亡，经过中有之道，渡过三途河，在彼岸接受十王的裁判后，没有做坏事的话，就能去冥界成佛转生了吧。<br><br>
+这时就能见到她了。<br><br>若在那里惹她不高兴，就会有惨事发生。<br><br>首先会被魂魄之剑斩中，断了轮回转生。<br><br>再被她送回彼岸，接下来就只能去地狱了。
+在死之前，好好地记住关于她的事吧。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

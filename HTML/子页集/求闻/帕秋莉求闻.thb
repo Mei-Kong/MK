@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:385px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/帕秋莉·诺蕾姬（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">帕秋莉·诺蕾姬（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>不动的大图书馆</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>帕秋莉·诺蕾姬 Patchouli Knowledge  </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						使用魔法（主要是属性）程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">红魔馆</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				要说恶魔之馆红魔馆的头脑，那就是魔法使帕秋莉·诺蕾姬。<br><br>
+她担当着解决红魔馆中发生事件的角色（×1同时也担当发动事件的角色）。<br>
+她有一头长发，外表和人类并无差别。<br><br>
+她是纯粹的魔法使，已活了百年以上了。百年间大部分时间都花在读书上，让人惊讶<br><br>
+她擅长多种魔法，而且致力于开发新魔法。<br>创造了新魔法就会写入魔导书中，书就会增加。<br>虽然不知道她是从何时起住入红魔馆的，不过从图书馆的藏书来看，她已住了好久了。
+		
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2">
+				会使用各种魔法，是真正的魔法使。<br><br>主要使用属性魔法。<br>属性魔法就是借用妖精和精灵的力量而形成的魔法，小小的力量却能产生巨大的效果。<br><br>
+她所用的属性魔法，<br>主要是生命和觉醒的“木”，<br>变化和活动的“火”，<br>基础和不动的“土”，<br>果实和丰收的“金”，<br>寂静和净化的“水”，<br>机动和攻击的“日”，<br>被动和防御的“月”<br>七种属性。<br><br>
+除了能使用这么多种属性魔法外，她还能将两种以上属性组合，从而唱出强力的魔法。<br>比如说为了加强攻击力而将火和木组合，为了掩盖弱点而将火和土组合等等，变化非常丰富。				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>魔导书和大图书馆 </b></td></tr>
+			<tr><td colspan="2">
+				魔导书并不是普通的书，它内含魔法，是种魔法道具。<br>里面并不只是写上使用方法，还有为了能使用魔法的秘密钥匙。<br>虽说有了魔导书就能使用里面的魔法，但没有钥匙的人是完全看不懂书中的文字的。<br>只有和书写者同等或更高熟练度的人才能看得见钥匙。<br><br>
+书写魔导书所用的文字，据说是神代时期的平假名或者是原始的日本文字，不是现在人类通常使用的文字。<br><br>
+还有就是红魔馆的地下有间大图书馆，储藏着山一样多的魔导书。<br>那里有好多她所写的魔导书，还有一些任何人都看不懂的魔导书。<br>图书馆内除了魔导书还有其它书籍，除了魔导书以外的大部分是外面世界的书<br>（×2幻想乡的书多数是手写的，印刷制成的很少。）。
+		
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				那图书馆有好大的霉味。（雾雨魔理沙）<br>
+日本湿气重，藏书库都会建在通风的地方。<br>
+红魔馆是洋馆，那里说不定没有对应着日本的方法。<br><br>
+偶尔也能找到能看的书呢。（博丽灵梦）<br>
+我们也能正常地阅读外面世界的书。<br>
+我也好想去看看。
+
+				
+				
+				
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				属性魔法的特点就是力量小，效果大，不过也有缺点。<br>属性魔法是必然有弱点的。<br><br>
+她的魔法也有弱点。万一进入了战斗，必须看清对方魔法的属性。<br><br>
+不过她几乎从不出红魔馆，发生战斗的机率十分之低。<br>不主动攻进去的话，就不会碰上吧。<br><br>
+还有就是她的身体能力比人类还弱。<br>患有喘息<br>（×3所有魔法使的特点，就是小声急速念咒语，有喘息的话要快念是很辛苦的吧。），<br>活动时要注意不引起呼吸困难。<br><br>在妖怪之中是十分少有的了。			
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

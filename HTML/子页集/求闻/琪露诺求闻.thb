@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:375px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/琪露诺（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">琪露诺（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>冰之妖精</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>琪露诺 Cirno </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操控冷气程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">雾之湖</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				在雾之湖的附近，即使是夏天也会出现极端低温。<br><br>这时候常能遇到的妖精就是冰之妖精。 <br><br>
+她是湖附近妖精们中的领袖般的存在，力量也比其他妖精强。<br>她是属于好战型的，所以必须留神。<br><br>
+她身高颇低，穿蓝色的衣服，背后有冰之羽翼。<br><br>
+她有操控冷气的能力。能瞬间冻结小东西，比普通的妖精更危险<br>。一直在释放冷气的她周围总是很寒冷。<br><br>
+人们不知道她住在哪里，也无法得知她平时的生活是怎样的。<br>不光是琪露诺，所有的妖精都能溶入大自然之中，所以人类们看不见。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				有次见到她在雾之湖的水面一块冻结了的冰上毫无防范地（×1真的是毫无防范。）睡觉。（彦左卫门）<br><br><br>
+有次见到她在湖边四仰八叉地（×2真的是很随意。）睡着。周围的花草都给冻结了。（匿名）<br>
+还有好多雾之湖附近的目击报告，我猜测这湖是她的根据地。<br>
+这样的话，她的家说不定在水中。<br><br>
+在田中发现冻结的青蛙，我想这是妖精干的。（匿名）<br>
+令人讨厌的恶作剧。虽然直接受害者很少……<br><br>
+我从湖里钓上来的鱼都结了冰。真是吓了我一跳，不过鱼能保存得久些，也更美味了。（吃得正欢的太公望）<br>
+没想到雾之湖也有人类在钓鱼……<br>
+那附近很容易出现各种妖怪，不熟悉的人可不要模仿。
+				
+				
+				
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				如果突然吹来一阵冷气，那很可能冰之妖精就在附近。<br>那时无论是逃还是寻找妖精的踪影都可以。<br>只要明白对方是妖精稍加留神，一般不会有事。<br>琪露诺很容易被发现，不是注意力太散漫的话，基本上不会有受害者吧。<br><br>
+此外，要通过她在的地方怎么办？<br><br>
+她对火把的火之类热而不可触摸的东西很弱。手持火把她就不会接近了。<br><br>
+她接触的东西能瞬间结成冰，即使是她睡着了，也不要去摸她。冻伤可不好了。<br><br>
+若是万一琪露诺进行攻击，什么都好，冷静地说些话题来吸引她，对方表现出兴趣的话，那就慢慢地提问。<br><br>
+随后，在她考虑答案的时候，趁机逃吧。就算是很简单的问题，她一定也答不上来。	
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>
