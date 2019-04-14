@@ -219,11 +219,47 @@ Urllib 是python内置的HTTP请求库，有四个模块：
         print(unquote(url))
   
   
-分析Robots协议  
-  
-  
-  
-  
+分析Robots协议
+    1.Robots:
+        Ribots协议也称作爬虫协议，机器人协议，全名：网络爬虫排除标准（Robots Exclusion Protocol）
+        用来告诉爬虫和搜索引擎哪些页面可以抓取，哪些不能
+        它通常是一个叫做 robots.txt 的文本文件，一般放在网站的根目录下
+    
+        爬虫首先检查网站根目录下是否存在 robots.txt 文件
+        如果存在，则根据其定义的范围来爬取
+        如果不存在，则访问可直接访问的页面
+    
+        robots.txt 文件主要内容：
+            User-agent: *        #指定爬虫名，如果该爬虫没在这里，则不允许爬，* 指定所有
+            Disallow: /         #指定不允许爬取的目录
+            Allow/; /.../       #指定允许爬取的目录
+        
+    2.爬虫名称：
+    
+    
+    3.robotparser:
+        该模块提供一个类 RobotFileParser 
+        它可以根据某网站的 robots.txt 文件来判断是否能爬
+        只需要在构建方法里传入 robots.txt 的链接即可
+        
+            urllib.robotparser.RobotFileParser(url='')
+            如果不传入默认为空，最后使用set_url()方法设置一下也可
+        
+        关于这个类的几个常用方法
+            set_url()       :用来设置robots.txt文件的链接，如果在RobotFileParser()传入了，就不需要了
+            read()          :读取并分析robots.txt 文件，如果不调用下面判断都会为false，所以一定要调用
+            parse()         :解析robots.txt 文件，传入的参数是robots.txt 某行的内容，它会按照robots.txt。的语法规则来分析
+            can_fetch()     :该方法传入入两个参数，第一个是URL-agent，第二个是要抓取的URL，返回内容是该搜索引擎是否能抓取这个URL，结果为true 和 false
+            mtime()         :返回上次抓取和分析robots.txt的时间，对长时间分析和抓取的爬虫很有必要，用来定期检查和抓取最新额robots.txt
+            modified()      :同样对长时间分析和抓取的爬虫很有必要，将当前时间设置为上次抓取和分析robots.txt 的时间
+            
+                例如：rp = RobotsFileParser('http://www.baidu.com/........')
+                     rp.read()
+                     print(rp.can_fetch('*', 'http://www.baidu.com/........'))
+                     print(rp.can_fetch('*', 'http://www.baidu.com/......../........'))
+    
+    
+    4.使用requests
   
   
   
