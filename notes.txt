@@ -246,7 +246,7 @@ Urllib 是python内置的HTTP请求库，有四个模块：
             如果不传入默认为空，最后使用set_url()方法设置一下也可
         
         关于这个类的几个常用方法
-            set_url()       :用来设置robots.txt文件的链接，如果在RobotFileParser()传入了，就不需要了
+            set_url()       :用来设置robots.txt文件的链接，如果在RobotFilePatrser()传入了，就不需要了
             read()          :读取并分析robots.txt 文件，如果不调用下面判断都会为false，所以一定要调用
             parse()         :解析robots.txt 文件，传入的参数是robots.txt 某行的内容，它会按照robots.txt。的语法规则来分析
             can_fetch()     :该方法传入入两个参数，第一个是URL-agent，第二个是要抓取的URL，返回内容是该搜索引擎是否能抓取这个URL，结果为true 和 false
@@ -259,8 +259,152 @@ Urllib 是python内置的HTTP请求库，有四个模块：
                      print(rp.can_fetch('*', 'http://www.baidu.com/......../........'))
     
     
-    4.使用requests
-  
+使用requests
+	简单来说，在urlib库中完成的get请求，post请求等等其他操作，都可以用requests库更简洁的完成
+			例如： r = requests.get('https://www.baidu.com/')
+				  print(type(r))
+				  print(r.text)
+				  prinf(r.cookies)
+				  
+				  
+	.text返回的是Unicode型的数据。
+	.content返回的是bytes型也就是二进制的数据
+				  
+	
+	基本用法
+		1.GET请求
+			很简单 :   r = requests.get('https://www.baidu.com/')
+			      	  printf(r.text)
+				  
+			当需要附加额外的信息时，有两种方法：
+			请求时直接添加内容：r = requests.get('https://www.baidu.com/get?....')
+			
+			但这样不人性，一般这些信息使用字典存储的，可直接用requests的 params 参数构造：
+					data = {'name': 'AAA', 'age': '10'}
+					r = requests.get('https://www.baidu.com/get?....', params=data)
+				
+			另外，网页返回类型实际上是str类型的，但它很特殊，是json格式的，如果想直接解析返回结果得到字典格式的话，可直接调用 json() 方法
+				例如: print(r.json())
+				需要注意的是，如果返回的不是json，则会出现解析错误，抛出 json.decoder.JSONDEcodeError 的异常
+		
+		
+			*抓取页面：
+				请求普通的网页，则获取相应的内容
+					（空）
+				
+			*抓取二进制数据
+				图片，视频，音频等媒体文件本质是由二进制码组成，只需要读取某个媒体文件，将其二进制码保存成 .xxx 文件
+					例如： r = requests.get('https://github.com/favicon.ico')
+					  	  with open('favicon.ico', 'wb') as f:
+					  	  f.write(r.content)
+					打开favicon.ico既看到图片
+				
+			*添加 Headers
+				有些网页因为 robots 缘故，不添加某些信息是不能访问的，例如 Useragent，方法就是添加参数，不在赘述
+					header = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'}
+					r = requests.get('https://www.zhihu.com/')
+					 
+
+		2.POST请求
+			很简单，仅仅只是换个请求而已，只不过post需要提交数据，只需要把数据集合在字典里做参数就好，方法只是换成post
+				data = {'name': 'AAA', 'age': '10'}
+				r = requests.post('https://httpbin.org/post', data=data)
+			
+			
+		3.响应
+			例如：   r = requests.get('https://www.zhihu.com')
+					print(type(r.status_code), r.status_code)
+					print(type(r.url), r.url)
+					
+			其中，requests还提供了内置的状态码查询对象 requests.codes 
+				例如：  r = requests.get('https://www.zhihu.com/')
+				   	   exit() if not r.status_code == requests.codes.ok else print('OK')
+				   
+				       if not 如果不，状态码如果不相等200，则exit()，否则输出OK
+				       相应的查询条件在128页
+                       
+                       5
+    高级用法
+        与urllib差不多，关键是简洁
+        
+        1.文件上传
+            例如：    files = {'file': open('MEIKONG.jpeg', 'rb')}
+                     r = requests.post('https://www.zhihu.com/', files=files)
+                     
+        2.Cookies
+            获取cookies不再赘述
+            
+            可以直接用cookies来维持登录状态，这首先需要登录某个网站后，把cookie复制下来
+            利用 headers参数 即可正常登录
+            
+            还可以通过cookies参数来设置，这需要构造RequestsCookieJar对象，这相对烦琐，书中132页
+            
+        3.会话维持
+            每一次get() 或post() 请求都相当于用一个新的浏览器打开新的页面，这使得不能在同一会话中进行访问，也就是不能用同一个浏览器，打开新页面
+            Session 可维持同一个会话
+                例如：    requests.get('https://httpbin.org/cookies')             #请求一个网页的cookies
+                         r = requests.get('https://httpbin.org/cookies/123')     #请求另一个网页的cookies
+                         输出cookies，并不能获取当前的cookies
+                         
+                         r = requests.Session()                       #设置Session对象，注意大写
+                         r.get('https://httpbin.org/cookies/123')     #请求第一个cookies
+                         s = r.get('https://httpbin.org/cookies')     #第二个
+                         输出cookies，成功返回当前cookies
+        
+        4.SSl证书验证
+            requests 的 verify 参数用来控制是否检查证书，结果为 true 和 false
+            有些没被官方CA机构信任的网站，访问时会出现 SSlError 证书验证错误，只需要将 verify 设置成false 即可跳过验证
+                例如：
+            
+            不过，这样会发出一个建议指定证的警告，可以设置忽略警告来屏蔽，需要requests.packages 的 urllib3
+                例如：    from requests.packages import urllib3
+                         
+                         urllib3.disable_warings()
+                         response = requests.get('http://www.12306.cn', verify=False)
+                         print(response.ststus_code)
+                         
+            还有其他屏蔽警告方式，书中135页
+        
+        5.代理设置
+            相应的是 proxies参数 ，此对象是个字典，存放代理ip，格式：{'http': 'http://10.10.1.10:1111'}
+            
+            若代理需要 HTTP Basic Auth (HTTP基本认证) ，可使用类似http://user:password@host:port 这样的语法来设置代理
+                例如：    proxies = {'http': 'http://user:password@host:port'}
+            
+            requests 还支持 SOCKS 协议代理，需要先安装socks库     pip3 install 'requests[socks]'
+                例如：    proxies = {'http': 'socks5://user:password@host:port'}
+                                             ↑这里换成了socks协议
+            
+            最后   requests.get('http://www.taobao.com', proxies=proxies)  发送请求
+            
+        6.超时设置
+            相应参数为 timeout   (与urllib.request一样)
+            
+            详细书中136页
+            
+        7.身份验证
+            对应参数 auth
+                例如：  r = requests.get('http://localhost:5000', auth=('username', 'password'))
+                
+            requests 还提供了其他认证方式，例如 OAuth，需要安装对应的包  pip3 install requests_oauthlib
+            元组组成账号密码，最后 get 发送，不赘述
+            
+        8.Prepared Request
+            将请求表示为数据结构，在 requests 中叫做 Prepared Request
+                例如：   url = 
+                        data = 
+                        headers = 
+                        s = Session()                                                         #会话维持
+                        request = Request('请求方式', 'url', 'data=data', 'headers=headers')   #Request 组合结构
+                        prepped = s.prepare_request(request)                                #调用Session的prepare_request()方法将其转换成Prepared Request对象
+                        r = s.send(prepped)                                                  #调用Session的 .send()方法发送
+                        print(r.text)
+
+
+正则表达式
+    这个是处理字符串的强大工具，大概是，以某种表达方式去匹配字符串内容，返回符合正则表达式的字符串
+    需要用到 re 库
+ 
   
   
   
