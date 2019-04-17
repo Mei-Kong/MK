@@ -8,3 +8,5 @@ isinstance( object 对象, classinfo 类型 )    判断一个对象的类型，�
 .load()  读取 ('文件名')
 
 sep  对于每个输出的字符流之间用sep的值分隔    #print('A','B','C',sep='_')   输出:A_B_C
+
+replace() 方法把字符串中的第一参数 old（旧字符串） 替换成第二参数 new(新字符串)，如果指定第三个参数max，则替换不超过 max 次。
