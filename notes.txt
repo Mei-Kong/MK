@@ -1,140 +1,146 @@
-URLLIB 请求库
+ 
+                                                                               >>>>==妹控世界第一可爱==<<<<
+                                                                                     
+                                                                                     == 基本库 ==
 
-Urllib 是python内置的HTTP请求库，有四个模块：
+=====================================================================================   URLLIB   ===================================================================================================
+
+====Urllib 是python内置的HTTP请求库，有四个模块：
             request: 模拟HTTP请求
             error: 异常处理模块
             parse: URL处理方法
             rebotparser: 识别网站的robots.txt文件，判断哪些网站可爬，哪些不能
       
       
-发送请求：      
-1.urloprn()
-    urllib 的 request 模块可以实现发送请求并得到相应
-        urllib.request.urlopen('http...') 可以抓取网页的HTML源代码
-        print(type(~~~))  可以输出相应网页的类型
-        print(~~~.status())  输出响应的状态码
-                 .getheaders()  输出响应的头信息
-                 .getheader(‘’)  输出响应头的某个的值
-                 .fileno  返回文件描述
-                 .fileno()  返回文件描述符
-
-    urllib() 函数的API封装：
-        urllib.request.urlopen( url,  网址URL
+====发送请求：      
+    1.urloprn()
+        urllib 的 request 模块可以实现发送请求并得到相应
+            urllib.request.urlopen('http...') 可以抓取网页的HTML源代码
+            print(type(~~~))  可以输出相应网页的类型
+            print(~~~.status())  输出响应的状态码
+                     .getheaders()  输出响应的头信息
+                     .getheader(‘’)  输出响应头的某个的值
+                     .fileno  返回文件描述
+                     .fileno()  返回文件描述符
+ 
+        urllib() 函数的API封装：
+            urllib.request.urlopen( url,  网址URL
     
-                                date=None,  以POST方式模拟表单提交方式
-                                            如何需要添加该参数，需要使用 bytes() 方法将参数转化成bytes(字节流)类型
-                                                bytes() 第一个参数需要是 str(字符串)类型 
-                                                            如果是字典，则需要用 urllib.parse 模块里的 urlencode() 将字典参数转换成字符串： urllib.parse.urlencode({  })  //里面是字典
-                                                        第二个参数是指定编码格式：encoding=''
+                                    date=None,  以POST方式模拟表单提交方式
+                                                如何需要添加该参数，需要使用 bytes() 方法将参数转化成bytes(字节流)类型
+                                                    bytes() 第一个参数需要是 str(字符串)类型 
+                                                                如果是字典，则需要用 urllib.parse 模块里的 urlencode() 将字典参数转换成字符串： urllib.parse.urlencode({  })  //里面是字典
+                                                                
+                                                            第二个参数是指定编码格式：encoding=''
                                                     
-                                            bytes(urllib.parse.urlencode({ : }), encoding='utf8')
+                                                bytes(urllib.parse.urlencode({ : }), encoding='utf8')
                                                     
-                                            如果使用了，则请求方式不再是GET，而是POST
-                                            http://httpbin.org/post    //可以用来测试POST请求   
-                                                            /get     //也可以测试GET，依此类推
+                                                如果使用了，则请求方式不再是GET，而是POST
+                                                http://httpbin.org/post    //可以用来测试POST请求   
+                                                                  /get     //也可以测试GET，依此类推
                                                                                
-                                [timeout,]*,  设置超时时间，单位s，默认为全局时间    // time=
-                                              超时异常为 urllib.error.URLError 属于urllib.error模块
-                                              可以用try except语句跳过超时页面，使用 isinstance() 对比类型用socket模块的socket.timeout
+                                    [timeout,]*,  设置超时时间，单位s，默认为全局时间    // time=
+                                                  超时异常为 urllib.error.URLError 属于urllib.error模块
+                                                  可以用try except语句跳过超时页面，使用 isinstance() 对比类型用socket模块的socket.timeout
                                           
-                                cafile=None,  CA证书的文件   //请求HTTPS链接时会有用
-                                capath=None,  CA证书的路径   //请求HTTPS链接时会有用
+                                    cafile=None,  CA证书的文件   //请求HTTPS链接时会有用
+                                    capath=None,  CA证书的路径   //请求HTTPS链接时会有用
                             
-                                cadefault=False,  已弃用，默认false
-                                context=None  必须是ssl.SSLContext类似，用来指定ssl设置
-                                )
+                                    cadefault=False,  已弃用，默认false
+                                    context=None  必须是ssl.SSLContext类似，用来指定ssl设置
+                                    )
                                 
                                 
-2.Request()
-    如果请求需要加入多个信息，如Headers，则需要 Request() 来构建一个完整的请求，方法：
-        class urllib.request.Request( url,  必选参数
-                                     date=None,  如果要传，必须是bytes类型，如果是字典，先用 urllib.parse.urlencode() 编码
-                                     headers={},  这是一个字典，请求头，请求时可以通过headers参数直接构造，也可以通过请求实例 add_header() 方法添加
-                                                  添加请求头时最常用的方法是通过修改User_Agent来伪装浏览器，默认为Python-urllib
-                                     origin_req_host=None,  指请求方的 host名称 或者 ip地址
-                                     unverifiable=False,  表示这个请求是否是无法验证的，默认为False，意思是用户没有足够的权限来选择接收这个请求的结果，例如请求一些图片等，就为true，因为大部分不需要验证
-                                     method=None  指示请求使用的方法，是一个字符串，比如 GET, POST, PUT 等 
-                                     )
+    2.Request()
+        如果请求需要加入多个信息，如Headers，则需要 Request() 来构建一个完整的请求，方法：
+            class urllib.request.Request( url,  必选参数
+                                        date=None,   如果要传，必须是bytes类型，如果是字典，先用 urllib.parse.urlencode() 编码
+                                        headers={},  这是一个字典，请求头，请求时可以通过headers参数直接构造，也可以通过请求实例 add_header() 方法添加
+                                                     添加请求头时最常用的方法是通过修改User_Agent来伪装浏览器，默认为Python-urllib
+                                        origin_req_host=None,  指请求方的 host名称 或者 ip地址
+                                        unverifiable=False,  表示这个请求是否是无法验证的，默认为False，意思是用户没有足够的权限来选择接收这个请求的结果，例如请求一些图片等，就为true，因为大部分不需要验证
+                                        method=None  指示请求使用的方法，是一个字符串，比如 GET, POST, PUT 等 
+                                        )
                                      
-                                     例如：A = urllib.request.Request(url, data=data, headers=headers, method=method)    #这里变量 A 等于一个完整的URL请求,是一个构架好的URL
+                                        例如：A = urllib.request.Request(url, data=data, headers=headers, method=method)    #这里变量 A 等于一个完整的URL请求,是一个构架好的URL
                                      
                                      
-3.高级用法：例如cookies处理，代理设置等
-    使用 Handler 即可简单完成，理解为解决各种处理的集合，对应cookies的处理类，对应代理的处理类等
+    3.高级用法：例如cookies处理，代理设置等
+        使用 Handler 即可简单完成，理解为解决各种处理的集合，对应cookies的处理类，对应代理的处理类等
     
-    在urllib.erquest模块里的 BaseHandler 是所有Handler的父类：
-        它的子类有很多  例如  HTTPDefaultErrorHandler :用于处理HTTP响应错误，错误会抛向HTTPError类型错误
-                           HTTPRedirectHandler  :用于处理重定向
-                           HTTPCookieProcessor  :用于处理Cookies
-                           ProxyHandler  :用于处理代理，默认为空
-                           HTTPPasswordMgr  :用于管理密码，它维护了用户名和密码的表
-                           HTTPBasicAuthHandler  :用于管理认证
-                           等等 
+        在urllib.erquest模块里的 BaseHandler 是所有Handler的父类：
+            它的子类有很多  例如  HTTPDefaultErrorHandler :用于处理HTTP响应错误，错误会抛向HTTPError类型错误
+                               HTTPRedirectHandler  :用于处理重定向
+                               HTTPCookieProcessor  :用于处理Cookies
+                               ProxyHandler  :用于处理代理，默认为空
+                               HTTPPasswordMgr  :用于管理密码，它维护了用户名和密码的表
+                               HTTPBasicAuthHandler  :用于管理认证
+                               等等 
                 
-    还有一个重要的类 OpenerDirector 称为 opener ，与urlopen类似，实际上urlopen就是uriilb提供的opener，urlopen处理的比较简单而已，opener实际上可以处理高级的功能 
-    简单地说，需要用 Handler 创建个性化的 opener 实现高级功能，功能都集成在 Handler 。
-    build_opener 可理解为实现高级操作 Handler
+        还有一个重要的类 OpenerDirector 称为 opener ，与urlopen类似，实际上urlopen就是uriilb提供的opener，urlopen处理的比较简单而已，opener实际上可以处理高级的功能 
+        简单地说，需要用 Handler 创建个性化的 opener 实现高级功能，功能都集成在 Handler 。
+        build_opener 可理解为实现高级操作 Handler
     
     
-    *验证：需要输入账号密码才能访问的页面
-            引用模块类例如    from urllib.request import HTTPBasicAuthHandler（用于管理认证）, 
-                                                       HTTPPasswordMgrWithDefaultRealm（可理解为一张表）, 
-                                                       build_opener（用于发送验证，仅仅是发送）
-                     
-            例如：p = HTTPPasswordMgrWithDefaultRealm()    #使P成为一张用于验证的表
-                 p.add_password(None, url, username, password)    #给P添加参数  .add_password(变量, 变量, ...)
-                 handler = HTTPBasicAuthHandler(p)    #用HTTPBasicAuthHandler()使P形成验证操作，
-                 opener = build_opener(handler)    #这一步build_opener是发送请求，只是验证而已，相当于实现这个功能
-                 result = opener.open(url)   #当验证成功后，用.open可以打开网页获取代码，这里相当于urlopen
-                 print(result.read().decode('GBK'))    #打印代码
+        *验证：需要输入账号密码才能访问的页面
+                引用模块类例如    from urllib.request import HTTPBasicAuthHandler（用于管理认证）, 
+                                                           HTTPPasswordMgrWithDefaultRealm（可理解为一张表）, 
+                                                           build_opener（用于发送验证，仅仅是发送）
+                         
+                例如：p = HTTPPasswordMgrWithDefaultRealm()    #使P成为一张用于验证的表
+                     p.add_password(None, url, username, password)    #给P添加参数  .add_password(变量, 变量, ...)
+                     handler = HTTPBasicAuthHandler(p)    #用HTTPBasicAuthHandler()使P形成验证操作，
+                     opener = build_opener(handler)    #这一步build_opener是发送请求，只是验证而已，相当于实现这个功能
+                     result = opener.open(url)   #当验证成功后，用.open可以打开网页获取代码，这里相当于urlopen
+                     print(result.read().decode('GBK'))    #打印代码
                                      
-    *代理 
-        引用模块不多说
-        ProxyHandler()创建一个对象，它是一个字典
-                a = ProxyHandler({                            #添加代理IP，字典类型
-                        ‘http’: ‘http://192.168.1.1:1111’
-                        ‘https’: ‘http://192.168.1.1:1112’
-                        ......
-                })
-                opener = bulid_opener(a)     #这里直接openenr，之后.open() 
+        *代理 
+            引用模块不多说
+            ProxyHandler()创建一个对象，它是一个字典
+                    a = ProxyHandler({                            #添加代理IP，字典类型
+                            ‘http’: ‘http://192.168.1.1:1111’
+                            ‘https’: ‘http://192.168.1.1:1112’
+                           ......
+                    })
+                    opener = bulid_opener(a)     #这里直接openenr，之后.open() 
                 
     
-    *Cookies:读写cookies
-            用cookie进行模拟登陆和访问，需要引用用 http.cookiesjar 中的 Cookiejar() 库
-            再使用 urrlib.request 的 HTTPCookieProcessor() 处理Cookies
-            写好获取命令后，就是基本的构建操作了，handler ———— opener ———— .open()
-            注意：CookiesJar() 的对象是个字典，输出时常常只需要 name 和 value
+        *Cookies:读写cookies
+                用cookie进行模拟登陆和访问，需要引用用 http.cookiesjar 中的 Cookiejar() 库
+                再使用 urrlib.request 的 HTTPCookieProcessor() 处理Cookies
+                写好获取命令后，就是基本的构建操作了，handler ———— opener ———— .open()
+                注意：CookiesJar() 的对象是个字典，输出时常常只需要 name 和 value
 
-                cookie = http.cookiejar.CookieJar()    #创建CookJar() 的对象，是个字典
-                handler = urllib.request.HTTPCookieProcessor(cookie)    #指定操作
-                opener = urllib.request.build_opener(handler)    #构建opener
-                response = opener.open('http://www.baidu.com')    #打开url，实现opener操作
-                for a in cookie:    #此时输出response是源代码，获取cookies的话应该是遍历输出 cookie 字典变量，可只选name 和 value
-                    print(a)                         
+                    cookie = http.cookiejar.CookieJar()    #创建CookJar() 的对象，是个字典
+                    handler = urllib.request.HTTPCookieProcessor(cookie)    #指定操作
+                    opener = urllib.request.build_opener(handler)    #构建opener
+                    response = opener.open('http://www.baidu.com')    #打开url，实现opener操作
+                    for a in cookie:    #此时输出response是源代码，获取cookies的话应该是遍历输出 cookie 字典变量，可只选name 和 value
+                        print(a)                         
                                      
-            cookie实际上是以文本形式保存的，那么输出时可以输出成文件格式，用 .save 保存  .load 读取
+                cookie实际上是以文本形式保存的，那么输出时可以输出成文件格式，用 .save 保存  .load 读取
             
-                filename = 'cookies.txt'    #创建txt
-                cookie = http.cookiejar.MozillaCookieJar(filename)    #参数为文件名时自动创建文件
-                handler = urllib.request.HTTPCookieProcessor(cookie)
-                opener = urllib.request.build_opener(handler) 
-                response = opener.open('http://www.baidu.com') 
-                cookie.save(ignore_discard=True, ignore_expires=True)    #save将cookies保存到txt
+                    filename = 'cookies.txt'    #创建txt
+                    cookie = http.cookiejar.MozillaCookieJar(filename)    #参数为文件名时自动创建文件
+                    handler = urllib.request.HTTPCookieProcessor(cookie)
+                    opener = urllib.request.build_opener(handler) 
+                    response = opener.open('http://www.baidu.com') 
+                    cookie.save(ignore_discard=True, ignore_expires=True)    #save将cookies保存到txt
                 
-                ignore_discard 的意思是即使cookies将被丢弃也将它保存下来
-                ignore_expires 的意思是如果cookies已经过期也将它保存并且文件已存在时将覆盖
+                    ignore_discard 的意思是即使cookies将被丢弃也将它保存下来
+                    ignore_expires 的意思是如果cookies已经过期也将它保存并且文件已存在时将覆盖
             
             
-            CookieJar有两个子类：
-                        MozillaCookieJar ：保存成Mozilla型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar()
-                        LWPCookieJar ：保存成LWP型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar.LWPCookieJar()
+                CookieJar有两个子类：
+                            MozillaCookieJar ：保存成Mozilla型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar()
+                            LWPCookieJar ：保存成LWP型浏览器的Cookie格式    http.cookiejar.MozillaCookieJar.LWPCookieJar()
                                      
-            当需要调用本地Cookies文件时，用 load() 读取     
-                        cookie.load(‘filename’, ignore_discard=True, ignore_expires=True)
-                        这一步需要放在创建 handler 之上
+                当需要调用本地Cookies文件时，用 load() 读取     
+                            cookie.load(‘filename’, ignore_discard=True, ignore_expires=True)
+                            这一步需要放在创建 handler 之上
                                      
                                      
-处理异常：
+====处理异常：
     1.URLError  
         它是 urllib 库的 eroor 模块，继承OSError，是error的基类
         他有一个属性 reason 返回错误的原因
@@ -152,14 +158,14 @@ Urllib 是python内置的HTTP请求库，有四个模块：
           如果想知道错误的类型，可以用上面的方法： print(type(a.reason))
        
        
-解析链接
+====解析链接
     1.urlparse()
         实现 URL 的识别和分段，返回结果为ParseResult类型的对象，是一个元组，它分为6个部分
         scheme：协议    netloc：域名      path：访问路径
         params：参数    query：查询条件   fragment：锚点
       
-        https://www.baidu.com/index.html;useraa?id=10#comment
-        scheme//    netloc   /   path   ;params?query#fragment
+            https://www.baidu.com/index.html;useraa?id=10#comment
+            scheme//    netloc   /   path   ;params?query#fragment
                                      
         urlparse() 的API：
         urllib.parse.urlparse( urlstring: 必选，待解析的URL
@@ -219,7 +225,7 @@ Urllib 是python内置的HTTP请求库，有四个模块：
         print(unquote(url))
   
   
-分析Robots协议
+====分析Robots协议
     1.Robots:
         Ribots协议也称作爬虫协议，机器人协议，全名：网络爬虫排除标准（Robots Exclusion Protocol）
         用来告诉爬虫和搜索引擎哪些页面可以抓取，哪些不能
@@ -259,10 +265,11 @@ Urllib 是python内置的HTTP请求库，有四个模块：
                      print(rp.can_fetch('*', 'http://www.baidu.com/......../........'))
     
     
-使用requests
-	简单来说，在urlib库中完成的get请求，post请求等等其他操作，都可以用requests库更简洁的完成
+==================================================================================== requests ==================================================================================================
+
+====简单来说，在urlib库中完成的get请求，post请求等等其他操作，都可以用requests库更简洁的完成
 			例如： r = requests.get('https://www.baidu.com/')
-				  print(type(r))
+				  print(type(r))5
 				  print(r.text)
 				  prinf(r.cookies)
 				  
@@ -271,7 +278,7 @@ Urllib 是python内置的HTTP请求库，有四个模块：
 	.content返回的是bytes型也就是二进制的数据
 				  
 	
-	基本用法
+====基本用法
 		1.GET请求
 			很简单 :   r = requests.get('https://www.baidu.com/')
 			      	  printf(r.text)
@@ -306,9 +313,10 @@ Urllib 是python内置的HTTP请求库，有四个模块：
 					 
 
 		2.POST请求
-			很简单，仅仅只是换个请求而已，只不过post需要提交数据，只需要把数据集合在字典里做参数就好，方法只是换成post
+			很简单，仅仅只是换个请求而已，只不过post需要list_num red">1.</div>   
+                <div class="pic"><a href="http://prod提交数据，只需要把数据集合在字典里做参数就好，方法只是换成post
 				data = {'name': 'AAA', 'age': '10'}
-				r = requests.post('https://httpbin.org/post', data=data)
+				r = requests.post('https://httpbin.org/post', data=data)    #get 换成 post
 			
 			
 		3.响应
@@ -324,7 +332,7 @@ Urllib 是python内置的HTTP请求库，有四个模块：
 				       相应的查询条件在128页
                        
                        5
-    高级用法
+====高级用法
         与urllib差不多，关键是简洁
         
         1.文件上传
@@ -401,10 +409,12 @@ Urllib 是python内置的HTTP请求库，有四个模块：
                         print(r.text)
 
 
-正则表达式
-    这个是处理字符串的强大工具，大概是，以某种表达方式去匹配字符串内容，返回符合正则表达式的字符串
+==================================================================================== 正则表达式 ==================================================================================================
+
+====这个是处理字符串的强大工具，大概是，以某种表达方式去匹配字符串内容，返回符合正则表达式的字符串
     
     需要用到 re 库
+    
         例如 格式：  [a-zA-Z]+://[^\s]
         
             \w        匹配字母，数字及下划线
@@ -490,7 +500,7 @@ Urllib 是python内置的HTTP请求库，有四个模块：
                 re.X    该标志通过给予你更灵活的格式以便你将正则表达式写得更易于理解
                 
         *转义匹配
-            有时匹配内容中有.()\这些
+            有时匹配内容中有.()\这ignore些
             这些符号需要转义，在前面加一  '\'  就好， 例如 \( \) \.
             
      
@@ -510,6 +520,14 @@ Urllib 是python内置的HTTP请求库，有四个模块：
         findall() 返回的列表中的每个元素都是元组类型
                   可以遍历一下列表
                   
+        当给出的正则表达式中带有多个括号时，列表的元素为多个字符串组成的tuple，tuple中字符串个数与括号对数相同，字符串内容与每个括号内的正则表达式相对应，并且排放顺序是按括号出现的顺序。
+
+        当给出的正则表达式中带有一个括号时，列表的元素为字符串，此字符串的内容与括号中的正则表达式相对应（不是整个正则表达式的匹配内容）。
+
+        当给出的正则表达式中不带括号时，列表的元素为字符串，此字符串为整个正则表达式匹配的内容。
+        
+        一般没有 .group()
+
                   
     4.sub()              
         有时需要借助正则表达式修改文本，例如某文本的数字太多，想删除时用replace()又太烦琐
@@ -531,6 +549,155 @@ Urllib 是python内置的HTTP请求库，有四个模块：
                      newA = re.sub(pattern, '', A)
                      newB = re.sub(pattern, '', B)
                      newC = re.sub(pattern, '', C)
+  
+  
+  
+====    抓去首页 - 正则提取 - 写入文件 - 整合代码 - 分页爬取
+
+
+                                                                                  == 解析库 ==
+
+==================================================================================== XPath =====================================================================================================
+  
+====XPath，全称 XML Path Language，即XML路径语言
+
+    XPath 的选择功能十分强大，它提供了非常简洁明了的路径选择表达式，还提供了超过100个内建函数，用于字符串，数值，时间匹配以及节点
+    
+====常用规则
+
+        nodename        选取此节点的所有子节点 (nodename节点名称)
+        /               从当前节点选取直接子节点
+        //              从当前节点选取子孙节点
+        .               选取当前节点
+        ..              选取当前节点的父节点
+        @               选取属性
+        
+        使用XPath表达式时为 .xpath('')
+    
+    XPath 需要引用 lxml 的 etree 模块
+        from lxml import etree
+        
+    首先需要调用 HTML类 对一个文本进行初始化，成为XPath解析对象，而且etree的 tostring() 方法可以自动修正有缺陷的 HTML 文本，不过结果是bytes类型
+        html = etree.HTML( 文本 )            #转成XPath解析对象
+        result = etree.tostring(html)       #输出修正的HTML文本
+        print(result.decode('utf-8'))       #tostring()的结果是bytes类型，decode()转成str类型
+        
+        
+    还可以直接读取文件进行解析
+        etree.parse() 直接接受一个文档，按照文档结构解析
+        
+            html = etree.parser(‘.html’, etree.HTMLParser())    #etree.HTMLPaser 大概与 etree.HTML() 一个作用
+            
+            
+    1.所有节点
+        一般用//开头的XPath规则选取所有符合要求的节点
+        
+            .xpath('//*')         # * 表示匹配所有节点
+            .xpath('//li')        #表示选取所有li节点
+            
+        结果为列表形式，每个元素都是一个Element对象，可以直接用 [] 加索引取出想要的对象
+        
+        
+    2.子节点
+        通过/或//查找元素的子节点或子孙节点
+        
+            .xpath('//li/a')        #选择li的所有直接子节点a
+            .xpath('//li//a')       #选择li的所有直接子孙节点a
+            
+        / 是用于选择子节点， //是用于子孙节点
+    
+    
+    3.父节点
+        知道子节点，可以用 .. 查找父节点，或者 parent::*
+        
+            .xpath('//a[@href='aaa']/../@class')            #获取a子节点的父节点的class属性
+            .xpath('//a[@href='aaa']/parent::/@class')      #获取a子节点的父节点的class属性(一样)
+    
+    
+    4.属性匹配
+        可以用 @ 符号进行属性匹配
+            
+            .xpath('//li[@class='aaa']')        #@限制了li的class属性为’aaa‘，意思为匹配class为’aaa‘的li节点
+            
+            
+    5.文本获取
+        用XPath的 text() 方法获取节点中的文本
+            
+            错误：     .xpath('//li[@class='aaa']/text()')     
+                            输出结果为 /n    
+                            因为/是选择直接子节点，而内容就直接匹配到被修正的li内部的换行符，文本在a内部
+                
+            正确：     .xpath('//li[@class='aaa']//text()')    #把/换成//选取子孙节点
+                      .xpath('//li[@class='aaa']/a/text()')   #添加/a选取a节点，再匹配a内部文本
+                
+    
+    6.属性获取
+        直接用 @ 来获取节点的属性内容
+        
+            .xpath('//li/a/@href')
+                注意，属相匹配是中括号[]加属性名和值限定某个属性:[@href='aaa']，而这里的 @href 是获取节点的某个属性的值
+    
+    
+    7.属性多值匹配
+        有时一个属性有多个值，此时就需要 contains() 方法了
+        
+            .xpath('//li[contains(@class, 'aaa')]/a/text()')
+            
+        contains() 第一个参数传入属性名称，第二个参数传入属性值，只要此属性包含所传入属性值，就可以完成匹配
+    
+    
+    8.多属性匹配
+        有时，需要根据多个属性来确定一个节点，此时就要同时匹配多个属性，可以用XPath的运算符 and 来连接
+        
+            .xpath('//li[contains(@class, 'aaa') and @name='bbb']/a/text()')
+    
+    
+    =================运算符待录
+    
+    
+    
+    9.按序选择
+        有时选择某些属性时匹配到多个节点，而只想要其中的某个节点，如第二个或最后一个
+        
+            .xpath('//li[1]/a/text()')                  #传入数字直接选择序号，注意这里开头为1，选择第一个li节点
+            .xpath('//li[last()]/a/text()')             #last()选择最后一个li节点
+            .xpath('//li[position()<3]/a/text()')       #position()<3 表示选择位置小于3的li节点
+            .xpath('//li[last()-2]/a/text()')           #last()-2 表示最后一个-2的位置，即倒数第三个li节点
+            
+            等等100多个函数
+    
+    
+    10.节点轴选择
+        XPath提供许多节点选择方法，包括获取子元素，兄弟元素，父元素，祖先元素...
+        
+            .xpath('//li[1]/ancestor::*')               # ancestor轴 获取所有祖先节点，其后需要两个冒号，接着是节点选择器，*表示所有，li的祖先节点包括html，body...
+            .xpath('//li[1]/ancestor::div')             #这里添加限定条件 div ，结果为li的祖先div节点
+            .xpath('//li[1]/attribute::*')              # attribute轴 获取所有属性值，*表示获取li节点的所有属性值
+            .xpath('//li[1]/child::a[@href='aaa']')     # child轴 获取所有直接子节点，限定条件为a[@href='aaa']，意为获取属性为href='aaa'的a节点
+            .xpath('//li[1]/descendant::span')          # descendant轴 获取所有子孙节点，限定条件span，结果只包含span节点，而不包含a节点
+            .xpath('//li[1]/following::*[2]')           # following轴 获取当前节点之后的所有节点，这里*和索引，所以只获取了第二个后续节点
+            .xpath('//li[1]/following-sibling::*')      # following-sibling轴 获取当前节点之后的所有同级节点，这里使用*，所以获取了所有后续同级节点
+    
+            
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
