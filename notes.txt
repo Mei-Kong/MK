@@ -3,7 +3,7 @@
                                                                                      
                                                                                      == 基本库 ==
 
-=====================================================================================   URLLIB   ===================================================================================================
+=====================================================================================   URLLIB   ===============================================================================================
 
 ====Urllib 是python内置的HTTP请求库，有四个模块：
             request: 模拟HTTP请求
@@ -589,7 +589,7 @@
             html = etree.parser(‘.html’, etree.HTMLParser())    #etree.HTMLPaser 大概与 etree.HTML() 一个作用
             
             
-    1.所有节点
+====1.所有节点
         一般用//开头的XPath规则选取所有符合要求的节点
         
             .xpath('//*')         # * 表示匹配所有节点
@@ -679,10 +679,297 @@
             .xpath('//li[1]/following-sibling::*')      # following-sibling轴 获取当前节点之后的所有同级节点，这里使用*，所以获取了所有后续同级节点
     
             
+==================================================================================== Beautiful Soup ============================================================================================
+
+====强大的 Beautiful Soup 可以借助网页节结构和属性等特性来解析网页，可以不用去写一些复杂的正则表达式
+    它就是 Pythoon 的一个HTML或XML的解析库
+    在解析时，实际上是 BeautifulSoup() 就完成了文档的补齐更正格式
     
+    Beautiful Soup 在解析时实际上依赖解析器，除了支持标准库中的HTML解析器外，还支持第三方
+    
+           解析器                  使用方法                                  优劣势
+        python标准库           BeautifulSoup(markuo, "html.parser")      Python内置，速度适中，文档容错能力强
+        lxml HTML解析库        BeautifulSoup(markuo, "lxml")             速度快，容错强，需要C语言库
+        lxml XML解析库         BeautifulSoup(markuo, "xml")              速度快，唯一支持的XML解析器，需要C语言库
+        html5lib              BeautifulSoup(markuo, "html5lib")         最好的容错性，以浏览器的方式解析文档，生成HTML5格式的文档，但是速度慢，不依赖外部扩展
+        
+         
+====同样需要初始化：  BeautifulSoup( 文本 , "解析器↑")
+    引用：    from bs4 import BeautifulSoup
+    
+        from bs4 import BeautifulSoup
+        html = ".......(html文本)"
+        soup = BeautifulSoup(html, "lxml")      #初始化，在下一步之前，这里更正了格式（加了body和html节点）
+        print(soup.prettify)                    # prettify() 方法可以把解析的字符串以标准的缩进格式输出
+        print(soup.title.string)                #这里实际上是输出HTML中的title节点的文本内容，也就是选出title，然后string提取
+        
+        
+====节点选择器       soup = BeautifulSoup(html, "lxml")
+
+    很清楚，直接调用节点的名称就可以选择节点元素，再调用string即可获取节点文本，如果单个节点结构层次非常清晰，可以这样
+    
+        print(soup.title)               #打印选择title节点的选择结果
+        print(type(soup.title))         #输出它的类型
+        print(soup.title.string)        #输出节点文本内容
+        print(soup.head)                #选择了head节点，就是内部节点
+        print(soup.p)                   #选择p节点，这里只输出了第一个匹配结果，其他的后面节点都会忽略
+        
+    
+    1.提取信息
+        *获取名称
+            利用 name 属性获取节点名称
+            
+                print(soup.title.name)    #获取title节点的名称，(吐槽max)
+                
+        *获取属性
+            每个节点可能有多个属性，比如id，class，可以调用attrs获取所有属性，返回结果为字典，所以能以key方式获取值  soup.p['key']
+            
+                print(soup.p.attrs)             #返回p的所有属性，类型是字典
+                print(soup.p.attrs['key'])      #通过key获取value
+                
+            但这样太烦琐了，可以更简单的
+            
+                print(soup.p['key'])      #通过key获取value
+                
+            注意：有的返回结果是字符串，有的返回结果是字符串组成的列表
+                 比如：name是唯一的，所以是字符串
+                      而class可能有多个，所有是列表
+                
+        *获取内容
+            string    注意：因为选择到的p节点是第一个p节点，所以文本也是第一个p节点里面的文本
+        
+        
+    2.嵌套选择
+        意思是选择某个节点内部的节点，例如输出head节点内的title文本
+        
+            print(soup.head.title.string)
+            
+        
+    3.关联选择
+        有时候不能做到一步就选到想要的节点，需要先选一个节点，接着以它做基点再选择子节点，父节点，兄弟节点...
+        
+        *子节点和子孙节点
+            调用 contents 属性获取直接子节点，类型为列表
+                
+                print(soup.p.contents)      #返回p的直接子节点，结果是列表形式，而且包含文本 又包含节点
+                                                注意：列表中都是p的直接节点a，也就是说对于a里面的span节点，并不会单独选出来，而是算在a节点的内容
+                                                
+            
+            调用 children 属性获取直接子节点，类型为生成器类型，需要for循环遍历输出
+            
+                print(soup.p.children)      #返回结果为生成器类型
+                for i,child in enumerate(soup.p.children):      #用enumerate()生成下标对应内容
+                    print(i, child)                             #i为下标，child为内容，遍历输出
+                
+                输出比contents好看的列表内容，还有下标
+                
+            
+            如果想要获取所有 子孙节点  ，调用 descendants 属性获取，类型也为生成器类型，需要for循环遍历输出
+            
+                print(soup.p.descendants)   						#包含子孙节点，独立出列表
+                for i,child in enumerate(soup.p.descendants):      	#遍历输出，用了 enumerate() 方法
+                    print(i, child)
+                    
+                输出包含了独立的子孙节点
+                
+        
+        *父节点和祖先节点
+			调用 parent 属性，获取父节点
+				print(soup.a.parent)        #选择了a的父节点
+			
+			调用 parents 属性，获取祖先节点
+				print(soup.a.parents)        #加了s，选择了a的祖先节点
+		
+        
+        *兄弟节点
+            兄弟节点即是同级节点
+            
+                list()    方法用于将元组转换为列表
+            
+                print(soup.a.next_sibling)                          # next_sibling 用于获取节点的 (下一个) 兄弟元素                                       
+                print(soup.a.previous_sibling)                      # previous_sibling 用于获取节点的 (上一个) 兄弟元素
+                print(list(enumerate(soup.a.next_siblings)))        # next_siblings 返回后面的兄弟节点          ============================================未实验
+                print(list(enumerate(soup.a.previous_siblings)))    # previous_siblings 返回前面的兄弟节点
+        
+        
+        *提取信息
+            指的是获取关联元素节点的一些信息，例如文本，属性等
+                print(soup.a.next_sibling)                          #输出a下一个节点的内容 ： <a....</a>
+                print(soup.a.next_sibling.string)                   #输出a下一个节点的文本 
+                print(soup.a.parents)                               #输出a的父节点内容或类型，书上为body节点
+                print(list(soup.a.parents)[0])                      #将body节点的内容转换成列表，指定[0]，输出应为p节点
+                print(list(soup.a.parents)[0].attrs['class'])       #将body节点的内容转换成列表，指定[0]的属性'class'，输出应为p节点的class属性内容
+        
+        
+====方法选择器       soup = BeautifulSoup(html, "lxml")
+
+    用于进行比较复杂的选择
+    
+    *find_all()
+        顾名思义，查询所有符合条件的元素，给它传入一些属性或文本，就可以得到符合条件的元素
+        它的 API 如下
+        
+            find_all(name, sttrs, recursive, text, **kwargs)
+        
+        返回结果是列表类型，且元素依然都是 bs4.element.Tag，所以可以嵌套查询内部节点或其他节点
+        
+        1.name
+            根据节点名来查询节点元素
+                print(soup.find_all(name='ul'))     #使用name参数查询节点名称
+            
+            嵌套查询内部节点
+                for ul in soup.find_all(name='ul')  
+                    print(ul.find_all(name='li'))   #嵌套查询内部节点
+                    
+            对于列表，遍历输出
+                for ul in soup.find_all(name='ul')  
+                    print(ul.find_all(name='li'))
+                    for li in soup.find_all(name='li')  #遍历li
+                        print(li.string)                #使用 string 输出li的内容
+            
+        
+        2.attrs
+            传入属性来查询
+            这个参数的类型是字典，所传入的也要是字典
+                print(soup.find_all(attrs={'id': 'list-1'}))
+                
+            对于di，class这些常用属性，可以不用attrs传递，可以直接传入这些参数，例如对于id
+                print(soup.find_all(id='list-1'))       #这里是直接用id这个参数，这个不是API里的，意为查询id为‘list-1’的节点元素
+                print(soup.find_all(class_='list-1'))   #注意，class为Python关键字，所以后面需要添加一个 下划线_ ,来使Python区分
+        
+        
+        3.text
+            用来匹配节点的文本，传入形式可以是字符串，也可以是正则表达式
+                print(soup.find_all(text=re.compile('link')))       #re.compile为正则表达式
+                
+                返回结果依然是列表
+    
+    
+    *find()
+        这个是返回单个元素，也就是第一个匹配的元素，_all则是返回所有匹配组成的列表，也就是说find()返回的结果不再是列表
+            print(soup.find(name-'ul'))     #返回第一个匹配到的结果
+            
+            
+    另外，还有许多查询方法：
+    
+        find_parents()              #返回祖先节点
+        find_parents()              #返回父节点
+        
+        find_next_siblings()        #返回 后面 所有兄弟节点
+        find_next_sibling()         #返回 后面 第一个兄弟节点
+        
+        find_previous_siblings()    #返回 前面 所有兄弟节点
+        find_previous_sibling()     #返回 前面 第一个兄弟节点
+        
+        find_all_next()             #返回 节点后 所有 符合条件的节点
+        find_next()                 #返回 节点后 第一个 符合条件的节点
+        
+        find_all_previous()         #返回 节点前 所有 符合条件的节点
+        find_previous()             #返回 节点前 第一个 符合条件的节点
+
+  
+====CSS选择器      soup = BeautifulSoup(html, "lxml")
+    
+    只需要调用 select() 方法，传入相应的CSS选择器即可
+    
+        print(soup.select('.a .a-b'))       #输出class为 .a 下的 .a-b CSS选择器内容
+        print(soup.select('ul li'))         #输出所有ul节点下的li节点内容，结果则是所有li节点组成的列表
+        print(soup,select('#list .a'))      #输出 id(#) 为list下的class为 .a 的CSS选择器的内容
+    
+    
+    1.嵌套选择
+        select() 同样支持嵌套选择，例如先选择所有ul，再遍历每个ul，选择其中的li节点
+        
+            for ul in soup.select('ul')
+                print(ul.select('li'))
+                
+            不过建议还是 print(soup.select('ul li')) ，这个简洁一些
+    
+    
+    2.获取属性
+        因为节点类型是Tag类型，所以获取属性还可以用原来的方法
+            for ul in soup.select('ul')
+                print(ul['id'])
+                print(ul.attrs['id'])       #等价上一句
+    
+    
+    3.获取文本
+        处除了可以用前面的 string 属性，此外还有一种方法， get_text()
+        
+            print(li.get_text())    #输出li的文本
+            print(li.string)        #同价与上一句
   
   
-  
+==================================================================================== pyquery ===================================================================================================
+
+    如果比较喜欢 CSS选择器 ，也对jQuery有所了解，那么pyquery会更适合
+    
+    引用：
+        from pyquery import pyQuery 
+        这样每次使用都得打个大写，所有给它起别名
+        
+        from pyquery import pyQuery as pq
+        
+    
+====初始化
+    
+    pyquery的初始化方式有多种
+        *字符串初始化
+            字符串一般指的是纯html文本，或是其他字符串集合
+        
+                from pyquery import pyQuery as pq       #引入并别名
+                doc = pq(html)                          #这里的html文本自行想象，与上文差不多
+                print(doc('li'))                        #传入 li ，这样就选择了html文本中的所有li节点
+        
+        
+        *URL初始化
+            如果传入的是 url ，则需要指定参数 url
+            
+                doc = pq(url='https://www.zhihu.com')   #这里会将请求此url，得到HTML文本，以字符串形式传递给pyQuery，完成初始化
+                print(doc('title'))
+        
+        
+        *文件初始化
+            还可以传递本地的文件名，需要指定参数 filename
+            
+                doc = pq(filename='xxx.html')           #传入内容是待解析的HTML字符串，首先获取本地文件，再以字符串形式传递给pyQuery，完成初始化
+                print(doc('li'))
+        
+        
+====基本 CSS 选择器
+
+    print(doc('#a .a-b li'))        #意为 先选取id为 a 的节点，再选取内部class为 .a-b 的节点内的所有 li 节点
+    
+    它的类型是 pyQuery 
+    
+
+====查找节点
+
+    常用的查询函数，这些函数和jQuery中的函数用法完全相同
+    
+    *子节点
+        需要用到 find() 方法，此时传入的参数是CSS选择器
+    
+    
+    *父节点
+    *兄弟节点
+
+
+====遍历
+
+
+====获取信息
+    *获取属性
+    *获取文本
+    
+    
+====节点操作
+    * addClass 和 removeClass
+    * attr , text , html
+    * remove()
+    
+    
+====伪类选择器
   
   
   
