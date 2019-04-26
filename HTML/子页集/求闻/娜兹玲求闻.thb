@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:330px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/娜兹玲（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">娜兹玲（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>探宝的小小大将</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>娜兹玲 Nazlin  </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						要搜寻东西就能搜寻到的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">幻想乡全部区域</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				虽然她是寅丸星的使魔鼠妖，但是实际上她是真正的毘沙门天派来的高等级妖怪。<br>是派来帮助和监视寅丸星工作的。<br><br>
+她的特技是探宝。<br><br>所谓的探宝，本意是指搜寻地下埋藏的水脉，但是她的能力并不仅限于此，更多的时候是在探寻财宝。<br><br>
+一般的探宝的方法，会到使用探测棒，震动摆探测器等。<br>但是她是使用野生老鼠来作为探测器的。<br>因为无论是多么狭小或者深邃的地方都能钻进去，所以可以通过听声辨位来确认所寻之物的所在处。<br><br>
+也并非是什么样的东西都可以找到。<br><br>那些太大的东西<br>（×1 太大的东西老鼠反而看不见。）、<br>如同饵食一样能吃的东西（×2 会吃掉的。）、<br>活着的动物（×3 猫。），<br>都不是它们擅长寻找的东西。<br>还有，让老鼠收集那些它们无法辨识、无法理解的东西，也是比较困难的。<br><br>
+虽然她的身材不大，但是性格却是出奇的骄傲自大。<br>不过这是因为有毘沙门天做她的后盾，其实她的性格是比较胆小的。<br>一旦遇到什么可怕的事情立刻就逃之夭夭了。		
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>平时的生活</b></td></tr>
+			<tr><td colspan="2"><br>
+				平时她似乎并不在命莲寺中修行。<br>她是毘沙门天的部下，所以也不会信仰其他的神明。<br><br>
+因此，除了寅丸星找她有事之外，是不太愿意来命莲寺这里的。<br><br>
+她在无缘塚附近建了一个临时小屋，平时就藏在那里。<br>因为有传闻说无缘塚附近埋藏着宝藏，为了确认这一点她才住到了那里。那里散落着许多来自外面世界的东西。<br><br>
+如果她是负责寻找宝物的，所以就必须要对搜寻之物有明确的印象。<br>所以她对那些形状和名字不明的物体应该有着浓厚的兴趣吧。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				不管怎么样，有耗子药（×4 对老鼠吸引力很大的食物。有毒。）应该会好些吧。<br><br>
+饭量意外的大，经常有报告称谷物被大面积啃食<br>。尤其当她开始探宝时，因为会使用大量的野鼠，所以受害农作物更为广泛。<br><br>
+但是，如果能够顺利地交涉成功，就可以让她帮忙寻找失物。<br>对于这种性格的妖怪，一味的使用谦逊的态度会使她变得自大起来，让交涉难以成功。<br>用盛气凌人的态度胁迫她才是最好的方式。			
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

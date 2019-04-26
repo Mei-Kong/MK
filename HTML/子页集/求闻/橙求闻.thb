@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:390px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/橙（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">橙（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>凶兆的黑猫</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>橙 Chen </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						使用妖术程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">兽道、妖怪之山</font></td></tr>
+			
+			<tr><td height="100px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				妖兽之中的标准，有一定危险性的就是妖怪猫。<br><br>其中的橙，是八云蓝（后述）的式神<br>（×1式神不是种族，是加载在妖怪身上的软件，这软件的运行这里写作依凭。）。<br><br>
+她有锐利的爪和牙，长着两条长尾巴，是典型的妖怪猫<br>（×2肉球则是不明。）。<br><br>
+式神状态的时候，她会使用各种妖术，十分危险。但很怕水。被水泼中就会破了式神状态，而变成普通的妖怪猫。<br><br>
+妖怪猫状态下，她是完全的兽性化，利用身体又咬又抓，但还是怕水。被水泼中动作就会迟钝。无论是式神状态还是妖怪猫，外表都是一样的。<br><br>
+她会说人话，特别是式神状态时，会使用妖术，看来很聪明。事实上只有附近人类的小孩程度的智慧。<br><br>
+平时她住在妖怪之山，有事就会来人类村庄袭击人类。不过成为八云蓝式神的时候，则是和八云蓝、八云紫一起行动。
+				</td></tr>
+						
+			<tr><td height="100px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				被炉中有只好大的猫，和人一般高，是真的。（匿名）<br>
+冬天猫会缩在被炉。<br><br>
+我家附近的猫在举行集会。我用水泼散了它们。（匿名）<br>
+猫会偷偷地举行定期集会。它们的领袖就是这妖怪猫。<br><br>
+家中的柱有爪痕，果然这是妖怪猫干的吧。（匿名）<br>
+虽然她有可能会磨爪，不过到了妖怪猫级别，她已能使用指甲钳了。		
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				妖怪猫身手敏捷，力量也很强。一旦对峙，要逃恐怕很困难吧。<br><br>
+不过她弱点蛮多的。首先是怕水。雨天她无法灵活运动，逃到河中的话，她就不会再追来了吧。<br><br>
+再来是对木天蓼无抵抗力。将干燥的木天蓼撒向她，她就会失去战意。要在兽道行走时，常备一些木天蓼就行了。<br><br>
+这妖怪的妖术，是以高速巧妙的活动来迷惑人的。冲出视界左边，突然又从右边出来。这是种活用速度的妖术，有些像魔术了（×3以一定速度往左移动，一瞬间高速往右移，人就看不见了。看起来就像瞬间移动。）。					
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

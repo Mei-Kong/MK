@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:355px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/蕾米莉亚·斯卡蕾特（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">蕾米莉亚·斯卡蕾特（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>绯红恶魔 </b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>蕾米莉亚·斯卡蕾特 Remilia Scarlet </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵命运程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">极低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">红魔馆附近</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				说起在幻想乡已经确认的吸血鬼，那就是住在红魔馆的斯卡蕾特一家。<br>那里的主人就是绯红恶魔<br>（×1她在来幻想乡前就已经被这么称呼了，由来是经常撒下吸的血，将白衣染成一片红色。）<br>——蕾米莉亚·斯卡蕾特。<br><br>
+虽然外表年幼，想法幼稚，但实际上她已活了超过五百年，拥有吸血鬼一族令人惊异的身体能力。<br><br>
+她身高较低，外表看来不满十岁，背后有对比身高还要大的羽翼，光看外型的话显得十分巨大。还有就是态度傲慢。<br><br>
+行动小孩子气，拥有惊异的身体能力和无尽的好奇心，是只什么时候爆发也不奇怪的恐怖恶魔。<br><br>
+她白天在红魔馆睡觉，夜晚则会散步和开宴会，满足累了后就去睡觉。<br><br>
+操纵命运的能力就是，她本人有意无意间，际遇周围的不幸命运，搭上一句话，就能令对方生活发生重大变化。<br>似乎有很高概率会遇上珍奇的事情<br>（×2说不清这记载是否准确，因为这是一种无法目测的能力。）。			
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>与这只妖怪相关的逸闻 </b></td></tr>
+			<tr>
+				<td colspan="2"><br>
+				红雾异变<br><br>
+这异变导致了人类之间广为得知红魔馆的存在。<br><br>
+幻想乡被深红色的雾所包围，日光无法照到地上，虽是夏天，气温却升不上去的异变。光吸几口这种雾就觉得不舒服，经过数日后，人类们几乎都足不出户。<br><br>
+结果原来这是蕾米莉亚为了在白天也能活动而夺走日光，动机十分自我而引起的异变。<br><br>
+最后由博丽神社的巫女惩罚了她并解决了这事件。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				之前有见到她在赏花，张着一把太阳伞。怕日光却不是看夜樱呢。（匿名）<br>
+她是一只白天也能常见到的吸血鬼。<br>
+太阳伞是防紫外线的最佳物品。<br><br>
+之前有见到她在赏夜樱，因为怕日光，所以才会晚上观赏吧。（匿名）<br>
+结果很可能是她一天都在赏花。<br>
+有次受伤倒地，红魔馆的人救了我，让我在那住了几天。<br><br>
+虽说是恶魔之家，但意外地亲切呢。不过，完全没东西可吃，而且每晚都很吵，我很快就逃出来了（匿名）。<br>
+虽说是吸血鬼，但意外地绅士。<br>特别是现在似乎不吃幻想乡的人类。<br>
+不过，本来应该死掉的命运，可能因此而步上另一种命运<br>（×3按照被改变的命运，可能也会变成人妖。）。			
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				虽然她有好多弱点，但针对弱点而激怒她，可不是一种明智的行为。<br><br>
+半调子的退治行为没成功却惹怒了她的话，会被轻易地打飞。<br><br>
+因为好奇心旺盛，她有时会叫人类来参加宴会，有时又会到人类村落里去玩。<br>不过因为她性格幼小，不顺着她的意的话，会有惨事发生的。只能一切听从她的任性吧。<br><br>
+不光是对人类，对妖怪她也是“无人能比我更优秀”。<br><br>常常保持着高压态度，对谁都是友好度很低。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:350px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/苏我屠自古（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">苏我屠自古（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>神之末裔的亡灵</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>苏我屠自古 Soga no Toziko </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						引发雷电程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">不明</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				古代人的亡灵。<br><br>对人类抱持怨恨，性质就是所谓的怨灵。<br><br>
+虽说是跟物部布都一同侍奉丰聪耳神子的侍从，却与同神子一样成为了尸解仙的布都相去甚远，要谈到何解一直是亡灵姿态的话，似乎是因为上了布都当的样子吧。<br><br>
+原本，布都和屠自古是围绕于佛教战争中的冤家对头。<br>在那战争中，从结果来看屠自古那方虽然优胜，她却因为布都的号召转而在暗中帮助她。<br>其内容是<br>「如今这地方就由佛教去支配好了，等到神子作为将来的当权者复活后，就让我们两人作为参谋一同复活吧」<br>这样的事情。<br><br>
+她用壶来寄托自己残破的身体<br>（×1 详细请参照布都的「尸解仙」这一项）。<br><br>这物品原本期望是能够长时间也不会腐朽的东西，然而布都却把它掉包成了一个未经烧制的壶。<br><br>
+结果在屠自古的灵魂寄宿上去后，壶就直接溶化崩坏掉。<br>就因为这样她失去了肉体，变成了亡灵了。<br><br>
+至于说为什么布都会采取这样的行动，估计是因为对过去的战争中自己的一族被歼灭的事抱有怨恨吧。<br>尽管变成亡灵之际马上意识到自己被骗，却也发现自己对没有了身体这件事感到非常的舒快，所以也对现在变成了亡灵的事认命的样子。<br><br>
+为人粗野豪爽，容易心软。也有易生气的一面。<br>生气时就如字面所言会降下雷电，非常的危险。<br><br>
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2"><br>
+				所谓降雷，其实也是怨灵认真起来本身就持有的能力。<br>尽管怨灵本身可以说是愤怒的集合体，不过就像被激怒会引发「落雷」那样，愤怒和雷有着密切的关系。<br><br>
+小怨灵会尽可能发出咯喇咯喇程度的声音，当怨恨的等级上升时就会发出哔哩哔哩的声音，而大怨灵实际上是可以降雷的样子。<br><br>
+她能做到对自己的周围都降下雷电的程度，可算得上是级数很高的怨灵那样。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对应方法 </b></td></tr>
+			<tr><td colspan="2"><br>
+				怨灵对人类也好还是妖怪也好都是危险的存在。<br><br>
+对应方法就是尽量别靠近她。<br>碰到时也千万不能激怒她。<br><br>
+所幸的是她的怨恨都差不多消散了，渐渐变化成只会降雷的亡灵而已。<br>注意别去刺激她大概就不会有什么问题。<br><br>
+顺便一说，笨蛋和雷都喜欢高的地方（<br>×2 就跟露在外面的椿子会被敲，树大招风的道理一样），<br>所以说雷就是常落在高处的。<br><br>万一真的激怒了她的话那就弯低身子好了。
+				</td></tr>
+			
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

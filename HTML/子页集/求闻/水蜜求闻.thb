@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:360px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/村纱水蜜（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">村纱水蜜（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>水难事故的念缚灵 </b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>村纱水蜜 Murasa Minamitu </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						引发水难事故程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">命莲寺，雾之湖，八坂之湖，玄武泽，三途河等</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				是很久以前，在水难事故中丧命的幽灵。<br><br>虽然已经成为了船幽灵，却依然眷恋着这里所以没有离去，接二连三地将乘船的人们带入河中陪伴她。 <br><br>
+在乘船时偶尔会听到“把舀子借我吧”这样的声音。<br>一旦把舀子给她，船身就会不停地进水直至沉没。<br>但是很早以前，传闻只要给她一把没有底的舀子，就能逃出一劫。<br>为了克服这个弱点，如今她开始用自己的舀子来注水了。 <br><br>
+她的能力特别针对人类，是一种非常可怕的妖怪。<br><br>除了杀害人类之外，没有其他目的，是纯粹的妖怪。<br><br>这种残忍的能力，全都是由对于这个世界的留恋而引发出来的。在她的潜意识中，将人类沉入水中就意味着增加伙伴。 <br><br>
+但是，她在船幽灵之中仍算得上是理解人类的。<br><br>这全都是因为命莲寺。<br>她在那里了解到了许多人类的事情，应该发生了许多的变化吧。<br>如今她也会挑选对象，然后再引发水难事故。 <br><br>
+她的性格开朗，非常健谈。<br><br>在给船注水之时经常会与船主聊天。与此同时，这些聊天的内容又会丰富她的谈资。 
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>幽灵与妖怪 </b></td></tr>
+			<tr>
+				<td colspan="2">
+				因为她被称作是船幽灵，所以应该是属于幽灵一类的。<br><br>事实上，她是由意外事故而身亡的人类的灵体所转化的。<br>也就是所谓的念缚灵。 <br><br>
+所谓的念缚灵，是因为还残留着对这个世界的留念而没有渡过三途河的一种灵。<br>虽然是地缚灵的亚种，却并不会被束缚在同一个地方，而是会被束缚在能使其发挥作用的地方<br>。比如她在任何水面都能引发水难事故。<br>（×1 倒不如说只能在水面出没）拥有通常幽灵所没有的能力。 <br><br>
+就算在幽灵之中，这样的念缚灵也被当作妖怪。<br><br>她拥有鲜明的可被识别的身体姿态，并不是通常那种模模糊糊的灵体，性质也更偏向于妖怪一些。 
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2"><br>
+				她的能力特别针对人类，因此死亡率很高，是非常危险的存在。 <br><br>
+在视线不良的湖面上行船时，要时刻小心。 <br><br>
+同时，不仅仅是在船上时要注意，在河边钓鱼，瀑布下修行，泡温泉时，都有遭遇到水难事故的案例，所以务必要小心谨慎。 <br><br>
+最近有报告称，有人在神社的净身池洗手时，也遭遇了水难事故。<br><br> 
+因此要避免在人烟稀少的水域游玩，对于日常生活中接触到的水，除了时刻小心也没有其他办法了。 		
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

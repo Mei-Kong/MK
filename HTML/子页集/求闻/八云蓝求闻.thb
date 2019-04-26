@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:395px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:40px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/八云蓝（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">八云蓝（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>策士的九尾</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>八云蓝 Yakumo Ran</b></font></td></tr>		
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵式神程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">哪里都行</font></td></tr>
+						
+			<tr><td height="200px"></td></tr>
+			
+			<tr><td colspan="2"><b></b></td></tr>
+			<tr><td colspan="2">
+				据说妖兽的尾巴越多魔力越高，越长则越聪明。<br>能到达这个最高峰的就有她，九尾之狐八云蓝（×1这名字是她作为从者，她的主人八云紫为她起的，本名不明。）。<br><br>
+有着九条巨大的尾巴的狐，其耀眼的毛色造就了一种神圣感。<br>
+而招收这只最强妖兽作为从者，主要用于杂用的就是最强的妖怪——八云紫（×2所以没人能打赢这对组合。）。蓝是紫的式神。<br><br>
+蓝作为式神听从紫的吩咐行事，她本身也能驱使式神。那就是蓝的式神橙。不过似乎橙还不够成熟，工作还不会交给她做。<br><br>
+智力相当高，尤其擅长数学。据说连人类所无法想象程度的计算都能够在瞬间完成。只不过，由于擅长计算，比起构思新的概念，她更倾向于分析求解现有的事物（×3外面的世界将式神叫做电脑，是属于同一性质的。）。<br><br>
+平时和八云紫住在同一个家，会代替紫在幻想乡各处行动。				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				不久前有来我这买油炸豆腐，虽是动物，也会正经地来买呢。（豆腐店）<br>
+因为有一定的贤知，所以耻于偷盗行为。<br>
+人类和妖怪都是一样的。<br><br>
+不久前，有只九尾妖狐在人类村落周围测量着什么，我很不安妖怪们是不是在策划着什么。（匿名）<br>
+不需要担心。<br>
+这狐只是定期来检查幻想乡是否有变化，结界是否有破绽而已。<br>
+本来是八云紫的工作，因为她嫌麻烦，就派妖狐来了。<br><br>
+尾巴好像好暖和。（博丽灵梦）<br>
+当然暖和吧。毕竟是最强妖兽。<br>
+				
+				
+				
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				她智能高，力量强，速度快。除非有足够自信，否则最好不要与她为敌。<br><br>
+幸好她性格温和，不会为了自己而争斗，一般情况下是不会被无理由袭击的。不过要是妨碍了她的工作的话，那就要作好觉悟了。<br><br>
+虽说不上是弱点，不过她很喜欢吃油炸豆腐，给她油炸豆腐的话，就能回避战斗吧。在兽道行走时，为以防万一，记得带上几块油炸豆腐。<br><br>
+虽然也会出现在人类村落，不过不需要害怕。她只是来买东西的。				
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

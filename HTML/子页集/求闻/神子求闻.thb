@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:280px;
+		height:395px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:280px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/丰聪耳神子（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">丰聪耳神子（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>圣德道士</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>丰聪耳神子 Toyosatomimi no Miko  </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						能够同时听十人讲话程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">神出鬼没</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				从长眠中苏醒过来的圣人。<br>刚出生时就已经拥有非同寻常的才能，远远超越了人类的超级人物。<br><br>
+能够理解同时十个人说的话并准确的给予回答。<br><br>传闻孩提时代就曾经用白胶木造出过四天王像，并且兴建了四天王寺。<br>另一方面，虽然也有在马厩出生的逸话，但似乎只是个不值一提的玩笑<br>（本人曰「高贵的我，怎可能是在那种臭得要命的地方出世」）（×1 耶稣也被认为有相似的逸闻。）。<br><br>
+现在成为超越了人类的仙人。<br>但是，却还没完全对俗世的事断绝来往，偶尔还会介入人类社会的事。<br>恐怕是过去身为执政者时残留下来的习惯吧。<br><br>
+性格意外的洒脱轻浮，老爱开玩笑。<br>但当直接与她面对面时不光容易露出纰漏，甚至有全部都被看透一样的感觉，会变成更多是敬畏的感觉。			
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2">
+				尽管听起来很是朴素的能力，<br>始终是得天独厚之物，<br>我想实际上说不定有其他超人的能力那样。<br>所谓生下来就是超人的地方。<br><br>
+此外，同时理解复数人话说是很不容易的事。<br>我虽然也有过耳不忘的能力，但那只能做到顺次序记忆下来。<br>同时两个人说话的话，其中一边的说了什么事最后大多是记不起来吧。<br>然而她却不只都记得，更能理解并作出回答，简直难以想象是人类做得到的事。<br><br>
+但是正因为有如此敏锐的耳朵，对平时生活也产生出了不少麻烦。<br>她所戴上的耳罩就是为了遮掩人们的声音从而保持心的平稳而存在的道具。<br>除此之外还带有指向性功能，能选择只听到将要消失的微弱得很的声音之类的用途。所谓耳朵是职业道具，就是这样的一回事。<br><br>
+另外她还拥有即使对方没直接表达出来，也能从对方说话的方式、表情、行为等读出对方所思所想的能力，有此般洞察力的她跟常人比起来实在是卓尔不群<br><br>当那个欲望成为形成对方本体的重要因素的时候。<br>她的能力是接近于读心，差异的地方是在于，后者是读出对方的记忆以及当前的思考内容，而前者却能做到读出对方的资质以及他的未来。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>佛教和道教 </b></td></tr>
+			<tr><td colspan="2"><br>
+				本来想着她是笃信佛教的，事实上似乎佛教对她来说只是政治道具而已。<br><br>
+佛教的目标是，把众生从苦难中解放出来。<br>大概这种和平的目标对于为政治世界带来便利是不可或缺的。<br>让民众信仰佛教的话，他们就不会为了自己的利益去逆当权者的意图，神子实际上是这种想法。<br><br>
+那时候，与佛教同时传来的的宗教，就是道教了。<br><br>道教的基本理念是，理解所谓的自然宇宙之物，然后把其化为自己的东西，那样的宗教。<br><br>虽然对于追求更高层次的人类来说是非常有魅力的宗教，但跟佛教不同，要是让其横行于世会产生什么乱子也是很容易想象出来的。要想推翻强力的统治者，必须要拥有比他们更强的力量。<br><br>
+她为了政治而继续利用佛教，另一方面也想得到非比寻常的力量。<br>其中最想要的力量，就是跟众多当权者渴求的一样，不老不死的能力。<br><br>而这似乎也是她选择信仰道教的理由。<br>因为事实上道教的最终目标，就是不老不死。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				村子中听闻有很多想拜她为师成为她弟子的人。<br>的确，掌握仙术能够极大改变日常生活。<br><br>
+但是这样的弟子似乎只会被她作为打杂用而已。<br><br>当中的道理不言自明，所谓仙人的弟子，除了用来打杂外就没其他用处了（×2 仙人是到了最后也只会为自己使用力量而已。没有教授他人的必要。）。<br><br>
+所以因为想得到超人的力量而抱着随便的心情打算成为她的弟子的话，还是别去比较好。<br><br>
+而且，万一得到了仙人般的力量后，说不定还会有引死神前来猎命的的风险。总之肯定不是什么好玩的事就是了。<br><br>
+另一方面，她自身也会去帮助人类所以大概也不需要去害怕她。<br><br>万一被妖怪追杀的话，还可以到她的地方寻求藏身与帮助。<br><br>虽然她家的入口似乎被隐藏起来，连实际在哪里都不知道…<br>（×3 救救我啊！神子A梦！ 这样大喊的话耳朵灵光的她或许能听到。）。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:395px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:100%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:100px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/伊吹萃香（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">伊吹萃香（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>小小的百鬼夜行</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>伊吹萃香 Ibuki Suika </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵密度程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">妖怪之山</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				幻想乡中鬼族销声匿迹后至今，已然经过了相当漫长的岁月。<br><br>不过，最近鬼族的身影终于在幻想乡中再度得到确认。这只鬼就是伊吹萃香。<br><br>
+她在整个幻想乡都近乎彻底淡忘鬼族的时候突然出现，不知为何开始留在幻想乡中生活（×1没人会退治鬼，大家都为难）。<br><br>
+她身材娇小，头上长着一对与身体极不协调的长角<br><br>
+与其他妖怪相比，咋看之下萃香并非可怕得让人毛骨悚然，可她毕竟也是鬼族的一员。<br>她拥有骇人听闻的恐怖力量，她曾经说过只要她愿意，就可以凭一己之力摧毁妖怪之山这样的豪言壮语<br>（鬼族言而有信说到做到，从来不说谎。）。<br><br>
+此外，萃香无比喜欢喝酒，经常随身携带者装满酒的葫芦（能无限涌出酒来的葫芦。），<br>几乎每时每刻都在往自己口中灌酒。<br><br>因此，从没有人报告说曾经见过她烂醉如泥以外的样子。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>操控密度的能力</b></td></tr>
+			<tr><td colspan="2">
+				她有操纵事物的疏密和浓淡的能力。<br><br>
+让密度变疏，事物会化为雾状。相反加大密度会令事物产生高温而溶解。<br><br>
+她很喜欢热闹，总是没事找事集合人类和妖怪来开聚会。<br><br>
+这时集合人类和妖怪之力，也是属于操纵密度的能力。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				可以干力气活，又可以将灰尘聚集，要说便利这只鬼的确很便利啦。（博丽灵梦）<br>
+鬼也能像剪刀那样拿来派用场。<br>
+是一种与之建立相互信任的关系便不必对其感到畏惧的种族。<br><br>
+不知能不能用来收集珍宝呢？（十六夜咲夜）<br>
+这么露骨地利用鬼的话会有危险的。
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				现今关于鬼的认知和退治的技术已经失传，不要勉强去退治较好。基本上无胜算。<br><br>
+若有万一，对鬼时的自保方法有几条。<br><br>
+例如将沙丁鱼头切下，用柊枝刺穿，挂在家门口。<br><br>
+据说这样鬼就无法接近，不过效果如何，还不得而知（心诚则灵）。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:350px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/风见幽香（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">风见幽香（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>四季的花之主</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>风见幽香 Kazami Yuka  </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵鲜花程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">极高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">最恶劣</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">太阳花田</font></td></tr>
+			
+			<tr><td height="100px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				一年四季生活在花的围绕之中，<br>人类、妖怪如果闯入打扰的话会被她以强大的力量不问缘由地消灭。<br><br>与其说是花之妖怪更像是自然的化身，和妖精不同，其危险度要远比到目前为止所有介绍的妖怪的都要高。<br><br>
+平时生活在被自然的花包围的场所，乍一看起来很平和但是对待其他的生物毫不留情。<br>
+穿着色彩明亮的服装，外表和人类没有区别。<br><br>
+操纵花的能力也就是说，让花盛开、使向日葵面向太阳、让枯萎的花再度盛开等这类程度的样子。<br>实际上，这种能力只是附属物罢了，其本身就是有纯粹的高等妖力和身体能力优秀的，妖怪中的妖怪。<br><br>
+在同人类或妖怪战斗是丝毫不会有恐惧感，非常喜欢折磨人的精神。<br><br>
+妖怪活的时间久了，就会渐渐地变得不活跃。自己去袭击人的情况很少。这个妖怪也是，据说最近很少离开花田周围活动了。
+				
+				
+				</td></tr>
+			
+			<tr><td height="100px"></td></tr>
+			
+			<tr><td colspan="2"><b>战斗能力 </b></td></tr>
+			<tr><td colspan="2">
+				和能力没有关系，使用伞放出飞散的花这般优雅的攻击方式。<br><br>她所持的伞，据说是能够大幅地削弱紫外线的特质阳伞（×1香霖堂这么解释的。），也可以用来挡雨。甚至弹幕也可以挡。<br><br>
+比起妖术和魔法这类的精神攻击，更多的会用拥有压倒性力量的物理攻击。<br>成为这种等级的妖怪后，对于我们这种普通人类不会有兴趣，除了同样拥有强大力量的妖怪或者拥有特别能力的人类都不会被看作是对手。<br><br>
+但是，拥有强大力量的两者起冲突的话，双方都明白要分出胜负会变得一发不可收拾。<br>为此，在决胜之前往往都会定下规则和战斗的形式。<br>根据规则决出胜负了，就算仍然能够战斗也得老实地认输。<br>在对手认输的情况下不应该深追下去。<br><br>这是长命妖怪的智慧。
+				
+				
+				
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2"><br>
+				她到人类村庄里面来买东西。也会打招呼，那看起来不像是强大的妖怪……（花店老板）<br><br>
+强大的妖怪通常平时表现得很绅士。但是，绝对不可以出手。<br>
+经常看到她呆在神社。那里的巫女不会退治她么？
+那里的巫女是出了名的不务正业。<br><br>
+但是，这个妖怪曾经数次被其退治（×2很可疑。）。<br><br>
+在太阳花田看到她。笑脸很可怕所以马上就逃跑了（匿名）<br>
+强者大抵，都带着笑容（×3定律。）。
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				对策什么的，普通的人类想要去退治是不可能的，只有老实的看着。<br>幸运的是，她对于无聊的战斗不感兴趣，这边只要不去进攻、设陷阱、在花田里面放火的话是不会有事的。<br><br>
+如果，碰到这个妖怪在和谁在战斗这种场面的话，也不要出手。<br><br>
+只是，战斗是建立在一定的规则基础上，如果不作出妨碍战斗的事，她都会很绅士。离那里有一定的距离的话，欣赏一下也不错。非人类之间的战斗，洋溢着令人窒息的美丽。
+				
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

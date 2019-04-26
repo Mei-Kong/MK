@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:340px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/多多良小伞（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">多多良小伞（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>愉快的遗忘之伞</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>多多良小伞 Tatara Kogasa </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						惊吓人类程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">人类村落，命莲寺，博丽神社，守矢神社</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				寄宿在没有人用了的伞上面的神灵，生气了便化作了付丧神。<br><br>附在道具上的神明，在被人当宝物宠爱的期间，会很配合主人的。<br><br>但一旦被丢弃就会露出獠牙，似乎要对人类展开攻击。任何一种道具上面都寄宿着神明，所以请不要亏待它们。<br><br>就算已经不需要了也请不要草草地丢掉，把道具完全用坏掉之后再扔吧。道具中的神明是不会对被用坏掉这件事发怒的。 <br><br>
+说起成为付丧神之后要做的事呢，无非就是每天去吓吓人类。<br>付丧神专挑那些无视自己存在的人类发泄。 <br><br>
+是个很典型的妖怪，但却并不袭击人类，也不会去吃人。<br><br> 
+虽说有着这种经历，性格却很开朗且亲近人类。<br>为了吓人而老是光顾人类村落，大人们是比较反感的，但这把造型奇葩的伞在孩子圈里好像意外地受欢迎。<br>（她似乎对此感到不满） <br><br>
+总是在命莲寺里呆着，但并没有入门。<br>逗留在这里的理由是，有个人们常去的墓地在，那样一来她可以轻易吓到不少人。 
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>怪伞 </b></td></tr>
+			<tr><td colspan="2">
+				总是拿着一把附有巨眼跟舌头，且造型极具个性的伞<br>（也不能说是拿着伞，因为两个都是本体啊）。<br><br>似乎是为了配合吓人才变成那样的。 <br><br>
+这是把茄子色的伞，但不知为啥就是不受欢迎，没人去使用。 <br><br>
+说起一只脚一只眼，就会让人联想到一本踏鞴这种很是凶恶的妖怪。<br><br>这种妖怪好像会捕捉在山中走失的人类，将其杀害或是让他成为自己的同伴。<br>她估计就是依样画葫芦改变的伞的样子（她的名字好像也是仿照着那个取的），<br>但就结果而言，造型变得越发滑稽了。 <br><br>
+不过，伞并非只是单单的装饰物。<br>她们之间有着藕断丝连的关系。<br>她是个只能以拿伞的姿态存在着的付丧神。 
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				这是个只要见到别人被吓了一跳，就会欢欣雀跃的付丧神，所以没什么危险可言吧。<br>虽说也有瞬间血压上升心脏麻痹的可能，但说到底她吓唬人的等级，不过是骗骗小孩子的程度罢了，不必担心。 <br><br>
+要是对她保持无视态度，那便会开始闷闷不乐。<br><br>因为这样的她看起来实在是太抑郁了，所以还是装个被吓住的样子把她哄哄开心吧。 
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

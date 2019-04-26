@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:395px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:100%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:100px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/爱丽丝·玛格特洛依德（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">爱丽丝·玛格特洛依德（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>七色的人偶师</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>爱丽丝·玛格特洛依德 Alice Margatroid </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操控人偶程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">任何地方都可能</font></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2">操控人偶的魔法，是种让人偶表现得像活着似的魔法。<br><br>并不是赐予人偶生命，而是用魔法线远距离操控，是很困难的。<br>不过，人偶不会违反命令，也不会因此伤害到操纵者。<br><br>
+她所操控的人偶并不特别，多数是普通的。<br>大多都是她亲手制作。<br><br>制成的人偶会用魔法线连接，以意志来操控<br>（×2非常的巧妙。但是，魔法线不是用手操作的，是靠魔法活动的。）。</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>日常</b></td></tr>
+			<tr><td colspan="2">她平时的料理、洗衣、打扫等家事，大都是人偶完成的。<br>看起来很轻松，不过人偶不是自动活动的，全都是操控的，光想就有够忙的了。<br><br>只要是人类做得到的，人偶都能完成。<br>人偶甚至能操控人偶。<br><br>不过她的人偶有一项是做不来的，那就是制造人偶。<br>只有这个必须由她亲手做。</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">她说人偶全都是操控型的，这话很假。（雾雨魔理沙）<br>
+			虽然见过的人会明白，不过各个人偶能够做不同的事，有时能前后接续辅助，完全地非同期行动。看起来真的不像是操控型的……。<br><br><br>
+			河里有大量人偶漂流。是那个人偶妖怪的所为吗？（匿名）<br>
+			那应该是漂流之雏（×3将厄运转移到人偶身上并让其随着河流漂走。最近考虑到环境污染所以做得少了。）吧。<br><br><br>
+			最近见到一种人偶之中又有人偶的奇怪人偶。那也是人偶妖怪的所为吗？（博丽灵梦）<br>
+			那是俄罗斯套娃。<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">由于以前是人类，一般情况下是不会袭击人类的。不过，意外地好战，向她挑战的话，她会乐于接受的。<br><br>
+			由于率领着人偶们，决斗的话将会不得不面对一对多的情况。对自己的能力有相当的自信，苦战必不可免。<br><br>另外，就算打倒了数个人偶，也像往烧热了的石头上面倒水一样几乎没有意义。而且，也有会自爆的人偶。不应该以人偶为对手。<br><br>
+			看起来像妖怪一样难以击败，但还是有弱点的。那就是爱丽丝本人。<br>由于本人操纵人偶的时候须要全力以赴，因此行动缓慢并且战斗能力也低。<br>如果有决斗的话，就直接攻击她本人。</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

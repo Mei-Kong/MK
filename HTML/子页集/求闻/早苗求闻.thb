@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:355px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/东风谷早苗（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">东风谷早苗（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>被祭祀的风之人</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>东风谷早苗 Kochiya Sanae </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>引发奇迹程度的能力</b></font></td>
+				<td>
+					<font size="+1">
+						操控人偶程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">低</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">高</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">守矢神社等</font></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				从外部世界来的人类。非常少见地适应了幻想乡的生活。<br><br>虽说是人类，但其实也是神明。<br><br>保持人类的样子成为了神明的人被称为现人神。<br><br>算上八坂神奈子和洩矢诹访子，合计有三位神在守矢神社里生活。<br><br>
+神灵是通过收集信仰来增强力量，但据我所知没有人类信仰她。<br>因此，普遍认为她的神力比较薄弱（×1 守矢神社收集的信仰说不定也是要均分的。）。<br><br>
+她在守矢神社之中的任务，似乎就是到人类村庄去收集信仰。<br>对方是人类的话他们的警戒心就会减弱，如果她能在众人面前引发奇迹（×2 小把戏等级的奇迹。）的话，应该会有很高的人气的吧。<br><br>
+性格跟普通的人类差不多，但是也能看得出有点小区别。<br><br>可能因为她原本是外部世界的人类吧。有点笨笨的，感觉也和幻想乡的人类有点差异。
+
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>外来人 </b></td></tr>
+			<tr><td colspan="2">
+				从外部世界进来的人类，大部分不是被妖怪吃掉了，就是又回到外部世界去了。<br><br>
+但是像她这样自愿进入幻想乡，并定居在此的例子少之又少。<br>并且还适应了幻想乡生活的很是少见的人类。<br><br>
+非常可惜的是她对于外部世界的知识非常匮乏<br>（按照她的说法「大家都是这样的嘛」。），<br>没有获得比当时的幻想乡更先进的技术和外部情报。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>她所引发的奇迹 </b></td></tr>
+			<tr><td colspan="2">
+				引发奇迹的能力，经常被混淆为幸运。<br>奇迹不过是偶然的顶点而已，其结果是好是坏都有可能。与幸运与否毫无关系。<br><br>
+最近虽然有青蛙或是蝌蚪从天而降等等的奇迹（ 怪雨奇迹。）发生，这也不是什么幸运的事件。<br><br>
+为了引发奇迹似乎需要长时间的准备（吟唱咒文）。<br><br>依照奇迹的大小，准备时间的长短也随之变化。<br>简单的奇迹只需要一句话就能引发，但如果是天崩地裂等级的奇迹，不花费上几天时间持续吟唱咒文几乎是不可能成功的。<br>但对于人类来讲持续念上好几天咏唱咒文是不现实的。
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				因为她是人类所以不需要什么对策。<br><br>
+虽然不是什么危险的人类，不过或许还是需要注意一下不要盲目信仰她比较好。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

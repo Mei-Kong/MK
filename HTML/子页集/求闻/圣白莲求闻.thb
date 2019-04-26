@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:250px;
+		height:360px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:250px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:50px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/圣白莲（求闻口授）.png) no-repeat;background-size: contain"><div class="zkxk">圣白莲（求闻口授）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>妖怪寺的魔住持</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>圣白莲 Hijiri Byakuren </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						使用魔法程度的能力（擅长提升体能的魔法）
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">不明</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">命莲寺之类</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				命莲寺的住持。虽然原本是人类，不过由于常年的修行已经完全超越了人类。<br>现在已经属于人们常说的魔法使了。<br><br>
+虽然已经入了佛门，但是不知道什么原因却被妖怪敬仰着。<br>她从来没有像童话故事中的魔法使那样，念诵着咒语退治妖怪。<br>使用的力量完全是邪恶的，一点都不像是圣人，虽然并没有人目击到她与人类为敌，但其实已彻底成为妖怪的同伴了。<br><br>
+在进入幻想乡之前，或许是因为人类惧怕着她那与众不同的能力，所以一直被封印在魔界。<br>而解开她封印的则是仰慕她的妖怪们。<br>正是由于她这样的经历，认为她憎恨人类也是理所当然的了。<br><br>
+平时她不喝酒，不杀生（肉也不吃），是一个严守清规的僧人，与其他人类的关系并不是十分融洽。（ 说起幻想乡里的交流，那当然是畅饮欢宴啦。）<br><br>
+她的工作包括葬礼仪式和墓地的管理，向弟子和其他人宣讲佛法，平时一直是早睡早起。<br><br>尤其是每个月都会有一次，她会和着木鱼的节奏用毫无起伏的音调念着「通宵诵读的经文」，被全体人类和妖怪热切注目着<br>2 并不是说她很有人气，而是因为通过注视她，人类可以入睡，而妖怪则是正好相反的效果。）。<br><br>
+她的性格稳重大方，非常的可靠，深受那些不喜斗争的妖怪的敬仰。<br>也从没有人见过她生气的样子，总之就是给人以好好先生的印象。<br><br>然而大多数妖怪都是攻击性的，所以反而会觉得她很诡异。
+				</td></tr>
+			
+			<tr><td height="150"></td></tr>
+			
+			<tr>
+				<td colspan="2"><b>能力</b></td></tr>
+			<tr>
+				<td colspan="2">
+				她的能力是通过修行附加在身上的结果。<br><br>虽然大多数人类将这种附加在身上的特殊能力，统称为「魔法」，但其本质是各种各样的相互不同的。<br><br>
+她的魔法，是将佛法发挥到极致而获得的一种特殊能力。<br><br>但是，那种力量已经偏离了大乘佛教（×3 一种通过拯救众生，来脱离苦海的奇怪思想。），被魔道拐入了歧途。<br>恐怕是再也无法成佛了。<br><br>
+她的魔法是肉体强化系。<br><br>平时就像没有力量的一般人类的她只要念诵咒文，拳头就能变得如同钢铁一样坚硬，五感变得十分敏锐，就算身在八卦炉中也能做到肉体的完好无损。<br><br>长久的寿命和不受年龄影响的肉体都是通过魔法获得的。<br><br>与她为敌的话，应该趁她没有防备的时候袭击比较合适。	
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+						
+			<tr><td colspan="2"><b>魔人经卷 </b></td></tr>
+			<tr><td colspan="2">
+				她手中所持的卷轴（被称为是魔人经卷），是为了施放能力而撰写的经书。<br>虽然说是撰写，但其实那个卷轴并非是纸质的，是纯粹由咒文所组成的。（×4 貌似纸质卷轴已经过时了的样子。）<br><br>
+因此，比起纸质的卷轴要轻上许多，内容量也几乎可以无限扩展。<br><br>同时，也因为不会随岁月流逝发生劣化而闻名。除此之外，似乎还搭载了只要通过挥动就能诵读经文的自动读经模式。<br><br>
+似乎是她被封印在魔界期间，为了打发闲暇时间而制作的。<br><br>魔界之中的物质，大多数都拥有自我意识。<br>魔人经卷也不例外，所以旁人无法使用。<br><br>在幻想乡之中，像这样拥有自我意识的物品被称为「被诅咒了」。<br>也就是说，魔人经卷是被诅咒的物品。<br>（ 在外面的世界中，似乎把这个称作 被virus（病毒）侵袭。）		
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				虽然无法明确判断，她是否对人类怀有敌意。<br><br>但是，因为她本人宣称严格遵守着不杀生的戒律，所以不会发生突然袭击这样的事件。<br><br>
+对于她的部下们则要尤其小心了。<br><br>居住在寺庙中的妖怪们中，有一些明显不会遵守戒律的家伙。<br>其中一部分妖怪是把圣的力量作为目标，还有一部分妖怪甚至把扫墓的人作为目标.			
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

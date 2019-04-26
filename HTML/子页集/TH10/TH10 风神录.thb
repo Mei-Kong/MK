@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Content-Type" content="仅适用与参考，全权版权归THBWIKI官方所有">
+<meta name="author" content="妹控">
+<meta name="Reply-to" content="1519314225@qq.com">
+<title>无标题文档</title>
+<style type="text/css">	
+	.dk{
+		width: 80%;
+		height: auto;
+		min-width: 60%;
+		background: rgba(0,0,0,0.2);
+		position: relative;
+		margin: -13px auto auto auto;
+	}
+	#bqid{
+		width : 100%;
+		height: 50px;
+		background: hsla(359,100%,50%,0.53);
+		text-align: center;
+		bottom: 0px;
+		position: absolute;
+		display: block;
+	}
+	.zybj{
+		width: 100%;
+		min-width: 600px;
+		position: absolute;
+		height: 600px;
+		overflow: hidden;
+		z-index: -1;
+		
+	}
+	.zybj img{
+		width: 100%;
+		min-width: 900px;
+		position: absolute;
+		filter: opacity(50);
+		top:-250px;
+	}
+	.box-zybj{
+		width: 100%;
+		height: 500px;
+		bottom: 0;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+	}
+	.zkjb{
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,114,0,0.5));
+		bottom: 0;
+	}
+
+	.divfhzy{
+		width: 75px;
+		height: 75px;
+		position: fixed;
+		top: 90%;
+		right: 3%;
+		background: hsla(359,100%,70%,1.00);
+		text-align: center;
+		line-height: 37px;
+	}/*返回上一级*/
+	.zk{
+		width: 100%;
+		height: 800px;
+		min-width: 350px;
+		position: relative;
+	}/*主框*/
+	.box_tableone{
+		width: 60%;
+		height: auto;
+		min-height: 200px;
+		min-width: 500px;
+		top: 50px;
+		margin: 0 auto auto;
+		position: relative;
+		background: rgba(255,114,0,0.60);
+		display: block;
+	}
+	.tableone{
+		width: 100%;
+		position: relative;
+		font-size: 1.5em;
+	}
+	.thbbj{
+		width: 40px;
+		height: 40px;
+		background: hsla(359,100%,83%,1.00);
+		position: relative;
+	}/*thb提示部件*/
+	.thbbj:hover .thbbjk{
+		height: 130px;
+		transition: height 1s ease;
+	}
+	.thbbjk{
+		width: 351px;
+		height: 0px;
+		line-height: 2em;
+		background: hsla(0,0%,60%,0.45);
+		position: absolute;
+		left: -390%;
+		overflow: hidden;
+		color: hsla(340,100%,59%,1.00);
+	}/*thb外链部件链接提示框*/
+	.gsdk{
+		width: 80%;
+		height: auto;
+		position: relative;
+		background: rgba(255,151,153,1.00);
+		min-width: 500px;
+		bottom: 350px;
+		margin: 500px auto;
+		font-size: 1em;
+	}
+	.gsdk td{
+		min-height: 50px;
+	}
+	.gsdk tr{
+		width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="zybj">
+		<img src="../../封面/东方风神录封面.jpg">
+		<div class="box-zybj"></div>
+	</div>
+	<div class="divfhzy">
+		<a href="../../主页.html#TH10" title="ああああああああ~~~~ゆっくり（油库里）"><img src="../../使用图片/啊啊啊啊~.jpeg" width="100%" alt="ああああああああ~~~~ゆっくり（油库里）"></a>
+	</div>
+	<div class="dk">
+	<div class="box_tableone">
+		<table style="border-color: rgba(0,0,0,0.5)" border="1" cellpadding="5px" cellspacing="0.1" class="tableone">
+			<tr>
+				<td colspan="3" >
+					<div class="zk" style="background: url(../../封面/东方风神录封面.jpg);background-size: cover">
+					<div class="zkjb"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><b><font size="+3">TH10 东方风神录</font></b></td>
+			</tr>
+			<tr>
+				<td>制作方</td>
+				<td>上海爱丽丝幻乐团</td>
+			</tr>
+			<tr>
+				<td width="15%">类型</td>
+				<td>STG</td>
+			</tr>
+			<tr>
+				<td>正式版发行日期</td>
+				<td>2007年8月17日 （ComicMarket72）</td>
+			</tr>
+			<tr>
+				<td rowspan="2">售价</td>
+				<td>会场售价：1000日元</td>
+			</tr>
+			<tr><td>通贩售价：1400日元</td></tr>
+		</table>
+			<table border="1px" style="position: relative;width: 100%;">
+				<tr>
+					<td align="center">访问THB查看相关词条
+						<div class="thbbj">
+							<a href="">
+								<img src="../../使用图片/thb.jpg" width="100%;">
+							</a>
+							<div class="thbbjk"><b>点击将访问到THBWIKI相关词条信息<br>而不是到THBWIKI主页<br>这个过程需要网络</b></div>
+						</div>
+					</td>
+				</tr>
+			</table>
+	</div>
+	<div class="gsdk">
+		<table border="1" width="100%" cellspacing="0" style="text-indent: 15px">
+			<tr><td align="center">故事背景</td></tr>
+			<tr><td>
+				<p>博丽神社。位于幻想乡东侧境界内一个寂静的神社。</p><br>
+				<p>忘记回家的妖怪们仿佛把这里当成了自己的寝室一般，一直以来这里都因为人类以外的生物而无比的热闹。</p><br>
+				<p>充满妖怪的神社自然不会有人类的参拜客到访，神社内的神明因为信仰心的不足而烦恼。</p><br>
+				<p>即便那样的神社也会有转机到访。</p><br>
+				<p>神社的巫女，博丽灵梦，正烦恼着。 </p><br>
+				<p>灵梦　「怎么样才能把妖怪们赶回去啊。
+　　　　　　　怎么样才能收集人类的信仰啊」</p><br>
+				<p>？？？「噢。好像很好吃的团子嘛」</p><br>
+				<p>灵梦　「啊，魔理沙。嗯」</p><br>
+				<p>魔理沙「烦心事吗？」</p><br>
+				<p>灵梦　「前不久，出现个有点奇怪的访客」</p><br>
+				<p>魔理沙「这个神社啊，不净是些奇怪的访客吗」 </p><br>
+				<p>对于神明而言信仰心就是他们的力量。</p><br>
+				<p>缺少参拜客的博丽神社，其力量逐渐衰退，现在已经跌落到在那据说八百万神参与的会谈中其意见被大家无视的地步。</p><br>
+				<p>即使说幻想乡中的神社仅此一家，但不可否认和外面世界中拥有若干神社的神明相比其拥有的信仰心的不足，博丽神社的地位正急速下跌。</p><br>
+				<p>灵梦　「的确妖怪也是奇怪的访客。但前不久，来了个奇怪的人类啊」</p><br>
+				<p>魔理沙「人类的访客？　那还真是稀奇啊」</p><br>
+				<p>灵梦　「那家伙发出了要神社停止营业的命令呢」</p><br>
+				<p>魔理沙「等等，你这个神社有在营业吗……」</p><br>
+				<p>博丽神社，除了提供神明的住处以外，还担当着幻想乡中另一个不可或缺的职责。因此灵梦认为，不管再怎么失去信仰心，停止营业也是不可能发生的事情。</p><br>
+				<p>那个所说的不可或缺的职责，就是守护隔绝幻想乡和外面世界的境界这件事……。</p><br>
+				<p>魔理沙「要神社停止营业啊，真是奇怪啦。说来要怎么处置停止营业后的神社？」</p><br>
+				<p>灵梦　「要关门吧，那个，说要转让给住在山上的神明」</p><br>
+				<p>魔理沙「嗯。双重的奇妙感啊」</p><br>
+				<p>灵梦　「虽然不知道那时侯出现的人类是什么人……不过怎么想，这也不是一般的神明会说出口的事情吧？」</p><br>
+				<p>魔理沙「是啊。不过我对那个人类也比较感兴趣就是……那你打算怎么办啊。不会说，当真要把神社转让给那个迷之神明吧？」</p><br>
+				<p>灵梦　「如果说山上那位神明，能够收集到比现在更多的信仰心的话，那倒是有可能啦。能帮我把妖怪赶回去，最重要的是那样不就更像一个神社了吗？」</p><br>
+				<p>魔理沙「这样啊。就算是神社里的神变了，对于灵梦也没什么大影响是吗」</p><br>
+				<p>灵梦　「不过呢。怎么想那件事都太可疑了。想把之前的神明赶走，自己趁机篡夺其位这种事情太可疑。那个人类也是，似乎拥有力量……但却是没见过的生面孔。绝对是什么妖怪搞得冒牌货，或者邪神之类的！」</p><br>
+				<p>烦恼的结果，灵梦决定亲自上山去见那个所谓的神明。</p><br>
+				<p>有意避免进入山中的灵梦，终于认真开始考虑关于失去所持有的信仰心的神社的问题，下了一个很大的决心。</p><br>
+				<p>这个时候，她还没想到接下来会有战斗在等待着她。</p><br>
+				<p>-------------------------</p><br>
+				<p>云上充满了光芒。</p><br>
+				<p>处能听见机械传来的声音。是天狗的工场醒来了吗。这里是村子的人类所无法踏入的世界。</p><br>
+				<p>树木建造的房屋。不合时令的蛙鸣声。数不清的蛇蜕皮后的空壳。</p><br>
+				<p>她就在那里。一直呆在这个地方。和一个人类一起。 </p><br>
+
+				<p></p><br>
+				<p></p><br>
+				<p></p><br>
+				<p></p><br>
+				
+				</td></tr>
+			
+		</table>
+	</div>
+	<div id="bqid">
+		<b>&copy;版权归THBWIKI官方,上海爱丽丝幻乐团所有</b>
+		<br>
+		<b><u><a href="">THBWIKI官方主页</a></u></b>
+		<img src="../../使用图片/thb.jpg" width="24px" align="top">
+	</div><!--版权-->
+	</div>
+</body>
+</html>
+
+

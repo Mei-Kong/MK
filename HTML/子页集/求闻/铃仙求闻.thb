@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:220px;
+		height:400px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:220px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/铃仙·优昙华院·因幡（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">铃仙·优昙华院·因幡（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>七色的人偶师</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>爱丽丝·玛格特洛依德 Alice Margatroid </b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						操纵狂气程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">不明</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">普通</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">迷途竹林</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				铃仙·优昙华院·因幡是只和其它妖兽气质大不相同，特殊的妖怪兔。<br><br>
+她身体修长，步姿端正，不像妖兽。在妖兽之中算是活动缓慢。<br>虽是妖兽，却从不袭击人类。相反会避开人类。<br>有着很长耳朵和头发。总的来说，是只与众不同的妖怪兔。<br><br>
+因幡帝是兔子们的领袖，而她则能对帝下命令（×1听说对方一直都不听话。）。是真正的兔子们的领袖。<br><br>
+据说正视她的红眼会使人发狂。<br>而且她的声音也是，有时就算能清楚地听到了却无法听进脑海中，相反有时就算在远处，听起来却好像在你的耳边说话一样。<br>由于这种诡异的现象，导致几乎不能正常地与她对话。<br><br>
+一般住在迷途竹林中的永远亭里。<br><br>她在那边的行动无从得知，不过有时会在人类村庄出现贩卖药物。她也因为随身携带着大量可疑的药物行动而出了名的<br>（×2例如苦得令人害怕的药。）。
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>狂气的能力 </b></td></tr>
+			<tr><td colspan="2">
+				操纵狂气就是让人狂乱，是种对事物波长进行操作的能力。<br><br>
+波长增长的话，即会变得轻松，什么事情都没有干劲不想去做。<br><br>
+波长缩短的话，则会带来疯狂，情绪变得不稳定不理智，与人对话也做不到。<br><br>
+增加振幅就是让存在变得过剩，无论多远的地方也能进行思想的交流。<br><br>
+降低振幅就是让存在变得稀薄，无论多么接近也无法令声音通达。<br><br>
+移动位相的话，就不会有干涉，也就无法触碰到东西。<br><br>
+位相倒置的话，就会否定存在，让外形完全消失。<br><br>
+利用这种多彩的能力，来让人狂乱。
+				</td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				那是早上去竹林采竹笋的时候的事了。<br>那时不知为什么能够看到大量的竹笋在下面哪。<br>
+腰疼了所以就站直了身体哪。就在这个时候，看到了奇妙的妖怪兔。<br>
+妖怪兔不知为何对着天空自言自语，像是在对谁说话。<br>不过远方只有西沉的月亮啊……<br>
+当我受不了这景像正要离去时，妖怪兔突然转过身来发现了我。<br>
+然后一刹那她就不见了。
+我是在做梦吗？（摘竹笋的老翁）<br><br><br>
+说不定是做梦（×3或者是老人特有的那啥。）。<br>
+这妖怪兔行动奇妙，有很多不明之处。
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				没有这妖怪袭击人的报告。<br> 但是说是友好的话也并不是那样，到人类村庄来贩卖药物的工作结束后，就像避开人类似的消失在迷途竹林里了。<br><br>
+饮食也和人类一样。这和普通的妖怪不同。<br><br>
+有一点是必须注意的，就是不能直视她的红眼。<br>这双眼和满月有同样的效果，会让人发狂的。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.dk{
+		width:75%;
+		min-width:300px;
+		height:800px;
+		background: rgba(0,0,0,0.4);
+		display:inline-table;
+		position: relative;
+		top:30px;
+		left:13%;
+		right:auto;
+		padding:15px;
+		}
+	.zk{
+		width:300px;
+		height:335px;
+		background:#FF004F;
+		position: absolute;
+		float:right;
+		right: 20px;
+		z-index: 1;
+		border: double rgba(0,0,0,0.7) 8px;
+		margin: 10px;
+		}
+	.zkxk{
+		width:300px;
+		height:0px;
+		position:absolute;
+		top:102%;
+		background: rgba(0,0,0,0.22);
+		transition:height 0.7s ease;
+		overflow:hidden;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	.zk:hover .zkxk{
+		height:70px;
+	}
+	.divone{
+		min-width:950px;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		position: relative;
+		font-size:1.3em;
+		height:auto;
+		word-wrap:break-word;
+		}
+</style>
+</head>
+
+<body>
+	<div class="dk">
+    	<div class="zk" style="background: url(../../使用图片/求闻史记/米斯蒂娅·萝蕾拉（求闻史纪）.jpg) no-repeat;background-size: contain"><div class="zkxk">米斯蒂娅·萝蕾拉（求闻史纪）</div></div>
+        <table class="divone">
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>夜雀的妖怪</b></font></td></tr>
+			<tr><td colspan="2">
+				<font size="+3">
+					<b>米斯蒂娅·萝蕾拉 Mystia Lorelei</b></font></td></tr>
+			
+			<tr><td height="25px"></td></tr>
+			
+			<tr>
+				<td width="200px">
+				<font size="+1"><b>能力</b></font></td>
+				<td>
+					<font size="+1">
+						用歌声迷惑人程度的能力
+					</font>
+				</td></tr>		
+			<tr>
+				<td><font size="+1"><b>危险度</b></font></td>
+				<td><font size="+1">中</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>人类友好度</b></font></td>
+				<td><font size="+1">恶劣</font></td></tr>
+			<tr>
+				<td><font size="+1"><b>主要活动场所</b></font></td>
+				<td><font size="+1">夜道</font></td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr>
+				<td colspan="2">
+				在黑暗的夜道和无人的森林，有很多利用歌声迷惑人类的妖怪。<br><br>米斯蒂娅·萝蕾拉就是其中之一。<br><br>
+从没有见到过外貌，只有无论从那里都能听到的歌声，被那个歌声迷惑的时候迷路的话，就会被妖怪袭击。<br><br>
+白天的时候接触的目击报告很少，据说是一个拥有大型羽翼的人型妖怪（×1如果一开始就看到这样的外表的话，就不会被叫做夜雀了吧。）。<br><br>
+米斯蒂娅的歌是意外地浮华，拥有一种很不像妖怪之曲的优秀拍调。<br>因为这点，在年轻人之中受到欢迎（×2尽管不应该受欢迎的。）。<br><br>
+相对的，歌唱妖怪的老一辈都是说：“最近的年轻妖怪就知道吵闹，成天唱些不明所以的歌，很让人困扰<br>。那不就是噪音吗。”这般的话。<br><br>
+同时，为了使得在被歌声引诱时看不清周围，她拥有让人类变得夜盲的能力。<br>仅靠着有限的灯光和歌声在夜道上行走的话，这样下去会被这个妖怪袭击的。<br><br>
+
+				</td></tr>
+			
+			<tr><td height="150px"></td></tr>
+			
+			<tr><td colspan="2"><b>目击者报告</b></td></tr>
+			<tr><td colspan="2">
+				我还以为普莉兹姆利巴乐团雇佣了歌手，但我靠近了之后也没发生什么好事。（匿名）<br>
+和普莉兹姆利巴乐团不同，她对于人类的友好程度是很糟糕的。<br>
+就算听到歌声了，也不要因为感兴趣而走近。<br><br>
+在兽道上看到一家挂着红灯笼的车摊，疑惑着走过去之后才发现是夜雀的铺子。（蟒蛇六介）<br>
+有开始摆摊这样的传言出现。<br>
+妖怪也是很闲的吗？<br><br>
+那绝对不是夜雀！（匿名）<br>
+我也是这么想的。
+
+				<br></td></tr>
+			
+			<tr><td height="50px"></td></tr>
+			
+			<tr><td colspan="2"><b>对策</b></td></tr>
+			<tr><td colspan="2">
+				受到这歌声的魔力的影响的，都是一个人单独行走的时候。<br>两人以上一起走的时候，先被歌声诱惑的一个可以被还未受到影响的人唤醒恢复正常，所以基本不会受到袭击。<br><br>
+对策就是，不要独自一人在黑暗的夜道上行走。<br>不仅限于这个妖怪，也是适用于其他妖怪的最基本的对应方法。<br><br>
+那么，夜盲的对策应该怎么做？<br><br>其实，吃八目鳗是个好办法。<br>每天吃的话，就会逐渐变好的吧。<br><br>
+要退治这个妖怪的话要怎么做才好？<br><br>因为在夜晚几乎没有得胜的希望，所以退治要在白天进行，但由于在白天往往隐藏起来所以那也不是件容易的事。<br>最有效的退治方法是，傍晚的时候设好陷阱（×3粘鸟胶会很有效。），到早上的时候如果被陷阱抓住了就将其退治。<br><br>
+这种妖怪如果不定期退治的话，就会得意忘形地出现在人类村庄，所以别忘记退治。
+				</td></tr>
+		
+			<tr><td height="350px"></td></tr>
+		</table>
+		<!--<tr><td height="25px"></td></tr>
+			<tr><td height="50px"></td></tr>-->
+    </div>
+</body>
+</html>
